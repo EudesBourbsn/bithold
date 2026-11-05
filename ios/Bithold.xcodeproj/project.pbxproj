@@ -26,6 +26,7 @@
 		BC3800000000000000000001 /* BitholdSendBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3800000000000000000002 /* BitholdSendBlur.m */; };
 		BC3800000000000000000003 /* BitholdContextMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3800000000000000000004 /* BitholdContextMenu.m */; };
 		BC3900000000000000000002 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC3900000000000000000001 /* InfoPlist.strings */; };
+		BD1000000000000000000001 /* BitholdRefreshMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1000000000000000000002 /* BitholdRefreshMotion.m */; };
 		C040B63B728C25F73955078E /* BitholdCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D69D6A8BEB4B72C244409 /* BitholdCamera.m */; };
 		C47A0850BEE9736F01F9AF49 /* BitholdWalletBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EEDF46BF48580338671A94 /* BitholdWalletBridge.m */; };
 		C8917ED898B267B3C8FB5DBE /* BitholdPhraseFieldBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE1FA754C11451A0622DA5 /* BitholdPhraseFieldBridge.m */; };
@@ -33,7 +34,6 @@
 		D1D8072441DC9DFBD1D9B404 /* BitholdCloudBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D2CD0D0E0C97D0B315DF1 /* BitholdCloudBackup.swift */; };
 		ED53D221DB0643246814DB47 /* BitholdSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 25365168C7E7020EACB7FD28 /* BitholdSymbol.m */; };
 		FFF02CDF78B219A797C518CC /* BitholdFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840375211E4CC344F1D0975 /* BitholdFeedback.m */; };
-		BD1000000000000000000001 /* BitholdRefreshMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1000000000000000000002; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,14 +69,14 @@
 		BC3900000000000000000015 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC3900000000000000000016 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC3900000000000000000017 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD1000000000000000000002 /* BitholdRefreshMotion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bithold/BitholdRefreshMotion.m; sourceTree = "<group>"; };
+		BD1000000000000000000003 /* BitholdRefreshMotionMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bithold/BitholdRefreshMotionMath.h; sourceTree = "<group>"; };
 		C79A0C2B95D7226EDD9E44E8 /* BitholdMedia.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BitholdMedia.m; path = Bithold/BitholdMedia.m; sourceTree = "<group>"; };
 		E20AC8A9489C22398B661990 /* BitholdWallet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BitholdWallet.swift; path = Bithold/BitholdWallet.swift; sourceTree = "<group>"; };
 		E55CACA3CE71637DE0B1A4F0 /* BitholdBackupCrypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BitholdBackupCrypto.swift; path = Bithold/BitholdBackupCrypto.swift; sourceTree = "<group>"; };
-		E63B71BDD8FC03D46C5EDAA0 /* MaterialIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		E63B71BDD8FC03D46C5EDAA0 /* MaterialIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FE761C779EB7008D573AF92F /* BitholdBackupPasskey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BitholdBackupPasskey.swift; path = Bithold/BitholdBackupPasskey.swift; sourceTree = "<group>"; };
-		BD1000000000000000000002 /* BitholdRefreshMotion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bithold/BitholdRefreshMotion.m; sourceTree = "<group>"; };
-		BD1000000000000000000003 /* BitholdRefreshMotionMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bithold/BitholdRefreshMotionMath.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,13 +284,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Bithold/Pods-Bithold-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Bithold/Pods-Bithold-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -327,13 +323,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Bithold/Pods-Bithold-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Bithold/Pods-Bithold-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -416,7 +408,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bithold-bitcoin.bithold";
+				PRODUCT_BUNDLE_IDENTIFIER = "bithold-movement.bithold";
 				PRODUCT_NAME = Bithold;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -448,7 +440,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bithold-bitcoin.bithold";
+				PRODUCT_BUNDLE_IDENTIFIER = "bithold-movement.bithold";
 				PRODUCT_NAME = Bithold;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_VERSION = 5.0;
