@@ -1,0 +1,11 @@
+{
+  "status": "all_source_files_match",
+  "sourceFilesVerified": 400,
+  "sourceRoot": "8a68ea1a030bcc5f9bcfe2a8ee0f087d61bdc08ce4fc824fb3f9f103f7521bf2",
+  "verifiedGitCommit": "4dee4f7fe273b3bd990195973644dbcdcd4894dc",
+  "missingFiles": [],
+  "modifiedSourceFiles": [],
+  "unexpectedFiles": [],
+  "designSourceChanged": false,
+  "scope": "GitHub upload integrity, not full native or App Store reproducibility"
+}
