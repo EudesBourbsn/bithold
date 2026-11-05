@@ -1,0 +1,111 @@
+name: Import reviewed source
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Verify and expand the reviewed source
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, os, stat, subprocess, zipfile
+          from pathlib import Path, PurePosixPath
+          expected = {
+            'bithold-source-1.0.0.zip': 'dd6e1b10ffecbbbe7eb3dc66eed256c147588573c05fd4706180ff8ec17ce976',
+            'bithold-release-evidence.zip': '82be3310d53caed7d397ecd03153db3790dc0d65358fd1f5d8ffc089df6a67b6',
+          }
+          for name, digest in expected.items():
+              assert hashlib.sha256(Path(name).read_bytes()).hexdigest() == digest, name
+          with zipfile.ZipFile('bithold-release-evidence.zip') as archive:
+              manifest = json.loads(archive.read('releases/1.0.0-47/source.json'))
+              for item in archive.infolist():
+                  path = PurePosixPath(item.filename)
+                  assert not path.is_absolute() and '..' not in path.parts
+                  assert str(path).startswith('releases/1.0.0-47/')
+                  target = Path(str(path))
+                  assert not target.exists(), str(path)
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(archive.read(item))
+          records = manifest['files']
+          canonical = json.dumps(records, sort_keys=True, separators=(',', ':'), ensure_ascii=False).encode()
+          source_root = hashlib.sha256(canonical).hexdigest()
+          assert source_root == manifest['sourceRoot'] == '8a68ea1a030bcc5f9bcfe2a8ee0f087d61bdc08ce4fc824fb3f9f103f7521bf2'
+          assert len(records) == 400
+          with zipfile.ZipFile('bithold-source-1.0.0.zip') as archive:
+              assert len(archive.namelist()) == len(records)
+              assert set(archive.namelist()) == {r['path'] for r in records}
+              for record in records:
+                  path = PurePosixPath(record['path'])
+                  assert not path.is_absolute() and '..' not in path.parts and '.git' not in path.parts
+                  item = archive.getinfo(str(path))
+                  assert not stat.S_ISLNK(item.external_attr >> 16)
+                  data = archive.read(item)
+                  assert len(data) == record['size']
+                  assert hashlib.sha256(data).hexdigest() == record['sha256'], str(path)
+                  target = Path(str(path))
+                  assert not target.exists(), str(path)
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(data)
+                  os.chmod(target, 0o755 if record['mode'] == '100755' else 0o644)
+          subprocess.run(['git', 'add', '--force', '--', *[r['path'] for r in records], 'releases'], check=True)
+          for name in expected:
+              subprocess.run(['git', 'rm', '--', name], check=True)
+          for record in records:
+              data = subprocess.check_output(['git', 'show', ':' + record['path']])
+              assert hashlib.sha256(data).hexdigest() == record['sha256']
+              mode = subprocess.check_output(['git', 'ls-files', '-s', '--', record['path']], text=True).split()[0]
+              assert mode == record['mode'], record['path']
+          print('Verified all 400 source files, paths, hashes, and executable modes before commit.')
+          PY
+      - name: Commit and verify the uploaded Git tree
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Publish Bithold 1.0.0 source and release evidence'
+          git push origin HEAD:main
+          git fetch origin main
+          python3 - <<'PY'
+          import hashlib, json, os, subprocess
+          from pathlib import Path
+          manifest = json.loads(Path('releases/1.0.0-47/source.json').read_text())
+          commit = subprocess.check_output(['git', 'rev-parse', 'origin/main'], text=True).strip()
+          assert commit == subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()
+          tree = subprocess.check_output(['git', 'ls-tree', '-r', '-z', 'origin/main']).split(b'\0')
+          entries = {}
+          for line in filter(None, tree):
+              metadata, path = line.split(b'\t', 1)
+              mode, kind, oid = metadata.decode().split()
+              entries[path.decode()] = (mode, kind, oid)
+          for record in manifest['files']:
+              mode, kind, oid = entries[record['path']]
+              assert mode == record['mode'] and kind == 'blob', record['path']
+              data = subprocess.check_output(['git', 'cat-file', 'blob', oid])
+              assert len(data) == record['size'] and hashlib.sha256(data).hexdigest() == record['sha256'], record['path']
+          allowed = {r['path'] for r in manifest['files']}
+          allowed.update('releases/1.0.0-47/' + n for n in ['BUILD.txt', 'source.json', 'archive.json', 'javascript-comparison.json', 'release-audit.json'])
+          allowed.add('.github/workflows/import-reviewed-source.yml')
+          assert set(entries) == allowed, sorted(set(entries) ^ allowed)
+          assert not any(p.endswith('.zip') for p in entries)
+          report = {
+              'status': 'all_source_files_match', 'sourceFilesVerified': 400,
+              'sourceRoot': manifest['sourceRoot'], 'verifiedGitCommit': commit,
+              'missingFiles': [], 'modifiedSourceFiles': [], 'unexpectedFiles': [],
+              'designSourceChanged': False,
+              'scope': 'GitHub upload integrity, not full native or App Store reproducibility',
+          }
+          path = Path('releases/1.0.0-47/github-source-verification.json')
+          path.write_text(json.dumps(report, indent=2) + '\n')
+          summary = 'All 400 source files match the reviewed source, including executable modes. No source files are missing. No ZIP remains in the current tree.\n\nSource SHA-256: ' + manifest['sourceRoot'] + '\n\nVerified source commit: ' + commit + '\n'
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as stream:
+              stream.write(summary)
+          print(json.dumps(report, indent=2))
+          PY
+          git add releases/1.0.0-47/github-source-verification.json
+          git commit -m 'Record verification of all uploaded source files'
+          git push origin HEAD:main
