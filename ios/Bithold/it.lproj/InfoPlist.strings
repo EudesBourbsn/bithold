@@ -1,0 +1,3 @@
+NSCameraUsageDescription = "Scansiona i codici QR degli indirizzi Bitcoin.";
+NSFaceIDUsageDescription = "Bithold usa Face ID per sbloccare l’app.";
+NSPhotoLibraryAddUsageDescription = "Salva il tuo codice QR Bitcoin in Foto.";

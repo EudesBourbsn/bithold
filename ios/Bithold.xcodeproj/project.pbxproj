@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C80B921A6F3F58F76C31292 /* libPods-Bithold.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Bithold.a */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		1E84A0305951833DC9AA422A /* BitholdBackupPasskey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE761C779EB7008D573AF92F /* BitholdBackupPasskey.swift */; };
+		3AAF9D7C5E391309EDC48B93 /* BitholdPhraseTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F6E41364398CDDEBD63A22 /* BitholdPhraseTextInput.swift */; };
+		3CDA3F695D7E803F3D959713 /* BitholdPhraseField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831421A35457945B2916F052 /* BitholdPhraseField.swift */; };
+		3D6735B5EDDE0117F566F5DB /* BitholdBackupCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E606F8DFD4D5FBACC851BF2 /* BitholdBackupCloud.swift */; };
+		40462C2412B742EDD1BB020B /* BitholdMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = C79A0C2B95D7226EDD9E44E8 /* BitholdMedia.m */; };
+		45EC47FEA1DB1A1A15020CD0 /* BitholdPhraseKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1497AC057C3271ED67CB46AD /* BitholdPhraseKeyboard.swift */; };
+		571A6690B1E08C3A75FE9F8A /* BitholdPhraseCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A309CFE95CB6EC7815F2B /* BitholdPhraseCompletion.swift */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		761780EF2CA45674006654EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EE2CA45674006654EF /* SceneDelegate.swift */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		84E9D9D44C71DE8ACBFC44E6 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E63B71BDD8FC03D46C5EDAA0 /* MaterialIcons.ttf */; };
+		8AF7B491BE5B5CE16D19ACA2 /* BitholdWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AC8A9489C22398B661990 /* BitholdWallet.swift */; };
+		9012DFF87AAA2F986CD91622 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		B2303E53B30D74E5D3FD69A7 /* BitholdCloudBackupBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC02890F1F40E5011E80AB7 /* BitholdCloudBackupBridge.m */; };
+		BC3800000000000000000001 /* BitholdSendBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3800000000000000000002 /* BitholdSendBlur.m */; };
+		BC3800000000000000000003 /* BitholdContextMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3800000000000000000004 /* BitholdContextMenu.m */; };
+		BC3900000000000000000002 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC3900000000000000000001 /* InfoPlist.strings */; };
+		C040B63B728C25F73955078E /* BitholdCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 899D69D6A8BEB4B72C244409 /* BitholdCamera.m */; };
+		C47A0850BEE9736F01F9AF49 /* BitholdWalletBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EEDF46BF48580338671A94 /* BitholdWalletBridge.m */; };
+		C8917ED898B267B3C8FB5DBE /* BitholdPhraseFieldBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE1FA754C11451A0622DA5 /* BitholdPhraseFieldBridge.m */; };
+		CBFD6D1AC330C87B901109C3 /* BitholdBackupCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55CACA3CE71637DE0B1A4F0 /* BitholdBackupCrypto.swift */; };
+		D1D8072441DC9DFBD1D9B404 /* BitholdCloudBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D2CD0D0E0C97D0B315DF1 /* BitholdCloudBackup.swift */; };
+		ED53D221DB0643246814DB47 /* BitholdSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 25365168C7E7020EACB7FD28 /* BitholdSymbol.m */; };
+		FFF02CDF78B219A797C518CC /* BitholdFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 2840375211E4CC344F1D0975 /* BitholdFeedback.m */; };
+		BD1000000000000000000001 /* BitholdRefreshMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1000000000000000000002; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EC02890F1F40E5011E80AB7 /* BitholdCloudBackupBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BitholdCloudBackupBridge.m; path = Bithold/BitholdCloudBackupBridge.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Bithold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bithold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Bithold/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Bithold/Info.plist; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Bithold/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1497AC057C3271ED67CB46AD /* BitholdPhraseKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BitholdPhraseKeyboard.swift; path = Bithold/BitholdPhraseKeyboard.swift; sourceTree = "<group>"; };
+		14F6E41364398CDDEBD63A22 /* BitholdPhraseTextInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BitholdPhraseTextInput.swift; path = Bithold/BitholdPhraseTextInput.swift; sourceTree = "<group>"; };
+		25365168C7E7020EACB7FD28 /* BitholdSymbol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BitholdSymbol.m; path = Bithold/BitholdSymbol.m; sourceTree = "<group>"; };
+		278A309CFE95CB6EC7815F2B /* BitholdPhraseCompletion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BitholdPhraseCompletion.swift; path = Bithold/BitholdPhraseCompletion.swift; sourceTree = "<group>"; };
+		2840375211E4CC344F1D0975 /* BitholdFeedback.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Bithold/BitholdFeedback.m; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-Bithold.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bithold.debug.xcconfig"; path = "Target Support Files/Pods-Bithold/Pods-Bithold.debug.xcconfig"; sourceTree = "<group>"; };
+		3E606F8DFD4D5FBACC851BF2 /* BitholdBackupCloud.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BitholdBackupCloud.swift; path = Bithold/BitholdBackupCloud.swift; sourceTree = "<group>"; };
+		45EEDF46BF48580338671A94 /* BitholdWalletBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BitholdWalletBridge.m; path = Bithold/BitholdWalletBridge.m; sourceTree = "<group>"; };
+		4DCE1FA754C11451A0622DA5 /* BitholdPhraseFieldBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BitholdPhraseFieldBridge.m; path = Bithold/BitholdPhraseFieldBridge.m; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-Bithold.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bithold.release.xcconfig"; path = "Target Support Files/Pods-Bithold/Pods-Bithold.release.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-Bithold.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bithold.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Bithold/AppDelegate.swift; sourceTree = "<group>"; };
+		761780EE2CA45674006654EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = Bithold/SceneDelegate.swift; sourceTree = "<group>"; };
+		7F4D2CD0D0E0C97D0B315DF1 /* BitholdCloudBackup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BitholdCloudBackup.swift; path = Bithold/BitholdCloudBackup.swift; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Bithold/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		831421A35457945B2916F052 /* BitholdPhraseField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BitholdPhraseField.swift; path = Bithold/BitholdPhraseField.swift; sourceTree = "<group>"; };
+		899D69D6A8BEB4B72C244409 /* BitholdCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BitholdCamera.m; path = Bithold/BitholdCamera.m; sourceTree = "<group>"; };
+		BC3800000000000000000002 /* BitholdSendBlur.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bithold/BitholdSendBlur.m; sourceTree = "<group>"; };
+		BC3800000000000000000004 /* BitholdContextMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bithold/BitholdContextMenu.m; sourceTree = "<group>"; };
+		BC3900000000000000000010 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC3900000000000000000011 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC3900000000000000000012 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		BC3900000000000000000013 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC3900000000000000000014 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC3900000000000000000015 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC3900000000000000000016 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC3900000000000000000017 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C79A0C2B95D7226EDD9E44E8 /* BitholdMedia.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BitholdMedia.m; path = Bithold/BitholdMedia.m; sourceTree = "<group>"; };
+		E20AC8A9489C22398B661990 /* BitholdWallet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BitholdWallet.swift; path = Bithold/BitholdWallet.swift; sourceTree = "<group>"; };
+		E55CACA3CE71637DE0B1A4F0 /* BitholdBackupCrypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BitholdBackupCrypto.swift; path = Bithold/BitholdBackupCrypto.swift; sourceTree = "<group>"; };
+		E63B71BDD8FC03D46C5EDAA0 /* MaterialIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FE761C779EB7008D573AF92F /* BitholdBackupPasskey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BitholdBackupPasskey.swift; path = Bithold/BitholdBackupPasskey.swift; sourceTree = "<group>"; };
+		BD1000000000000000000002 /* BitholdRefreshMotion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bithold/BitholdRefreshMotion.m; sourceTree = "<group>"; };
+		BD1000000000000000000003 /* BitholdRefreshMotionMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bithold/BitholdRefreshMotionMath.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-Bithold.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F94439CB2A822A747DA6DE3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E63B71BDD8FC03D46C5EDAA0 /* MaterialIcons.ttf */,
+			);
+			name = Fonts;
+			path = ../assets/fonts;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Bithold */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				761780EE2CA45674006654EF /* SceneDelegate.swift */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				BC3900000000000000000001 /* InfoPlist.strings */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				2840375211E4CC344F1D0975 /* BitholdFeedback.m */,
+				25365168C7E7020EACB7FD28 /* BitholdSymbol.m */,
+				BD1000000000000000000002 /* BitholdRefreshMotion.m */,
+				BD1000000000000000000003 /* BitholdRefreshMotionMath.h */,
+				BC3800000000000000000002 /* BitholdSendBlur.m */,
+				BC3800000000000000000004 /* BitholdContextMenu.m */,
+				C79A0C2B95D7226EDD9E44E8 /* BitholdMedia.m */,
+				899D69D6A8BEB4B72C244409 /* BitholdCamera.m */,
+				278A309CFE95CB6EC7815F2B /* BitholdPhraseCompletion.swift */,
+				831421A35457945B2916F052 /* BitholdPhraseField.swift */,
+				14F6E41364398CDDEBD63A22 /* BitholdPhraseTextInput.swift */,
+				1497AC057C3271ED67CB46AD /* BitholdPhraseKeyboard.swift */,
+				4DCE1FA754C11451A0622DA5 /* BitholdPhraseFieldBridge.m */,
+			);
+			name = Bithold;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-Bithold.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Bithold */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				0F94439CB2A822A747DA6DE3 /* Fonts */,
+				E20AC8A9489C22398B661990 /* BitholdWallet.swift */,
+				45EEDF46BF48580338671A94 /* BitholdWalletBridge.m */,
+				E55CACA3CE71637DE0B1A4F0 /* BitholdBackupCrypto.swift */,
+				FE761C779EB7008D573AF92F /* BitholdBackupPasskey.swift */,
+				3E606F8DFD4D5FBACC851BF2 /* BitholdBackupCloud.swift */,
+				7F4D2CD0D0E0C97D0B315DF1 /* BitholdCloudBackup.swift */,
+				0EC02890F1F40E5011E80AB7 /* BitholdCloudBackupBridge.m */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Bithold.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-Bithold.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-Bithold.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* Bithold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Bithold" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bithold;
+			productName = Bithold;
+			productReference = 13B07F961A680F5B00A75B9A /* Bithold.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Bithold" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				"es-419",
+				fr,
+				it,
+				nl,
+				pt,
+				ru,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Bithold */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				9012DFF87AAA2F986CD91622 /* PrivacyInfo.xcprivacy in Resources */,
+				84E9D9D44C71DE8ACBFC44E6 /* MaterialIcons.ttf in Resources */,
+				BC3900000000000000000002 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n. \"$SRCROOT/.xcode.env\"\nexport BITHOLD_HERMES_COMPILER=\"${HERMES_CLI_PATH:-$PODS_ROOT/hermes-engine/destroot/bin/hermesc}\"\nexport HERMES_CLI_PATH=\"$SRCROOT/../scripts/compile_hermes.py\"\npython3 \"$SRCROOT/../scripts/release_manifest.py\" embed --output \"$CONFIGURATION_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/BuildInfo.json\"\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n/bin/sh -c \"\\\"$WITH_ENVIRONMENT\\\" \\\"$REACT_NATIVE_XCODE\\\"\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bithold/Pods-Bithold-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bithold/Pods-Bithold-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bithold/Pods-Bithold-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bithold-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bithold/Pods-Bithold-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bithold/Pods-Bithold-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bithold/Pods-Bithold-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+				761780EF2CA45674006654EF /* SceneDelegate.swift in Sources */,
+				FFF02CDF78B219A797C518CC /* BitholdFeedback.m in Sources */,
+				ED53D221DB0643246814DB47 /* BitholdSymbol.m in Sources */,
+				BD1000000000000000000001 /* BitholdRefreshMotion.m in Sources */,
+				BC3800000000000000000001 /* BitholdSendBlur.m in Sources */,
+				BC3800000000000000000003 /* BitholdContextMenu.m in Sources */,
+				40462C2412B742EDD1BB020B /* BitholdMedia.m in Sources */,
+				C040B63B728C25F73955078E /* BitholdCamera.m in Sources */,
+				8AF7B491BE5B5CE16D19ACA2 /* BitholdWallet.swift in Sources */,
+				C47A0850BEE9736F01F9AF49 /* BitholdWalletBridge.m in Sources */,
+				571A6690B1E08C3A75FE9F8A /* BitholdPhraseCompletion.swift in Sources */,
+				3CDA3F695D7E803F3D959713 /* BitholdPhraseField.swift in Sources */,
+				3AAF9D7C5E391309EDC48B93 /* BitholdPhraseTextInput.swift in Sources */,
+				45EC47FEA1DB1A1A15020CD0 /* BitholdPhraseKeyboard.swift in Sources */,
+				C8917ED898B267B3C8FB5DBE /* BitholdPhraseFieldBridge.m in Sources */,
+				CBFD6D1AC330C87B901109C3 /* BitholdBackupCrypto.swift in Sources */,
+				1E84A0305951833DC9AA422A /* BitholdBackupPasskey.swift in Sources */,
+				3D6735B5EDDE0117F566F5DB /* BitholdBackupCloud.swift in Sources */,
+				D1D8072441DC9DFBD1D9B404 /* BitholdCloudBackup.swift in Sources */,
+				B2303E53B30D74E5D3FD69A7 /* BitholdCloudBackupBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC3900000000000000000001 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3900000000000000000010 /* en */,
+				BC3900000000000000000011 /* de */,
+				BC3900000000000000000012 /* es-419 */,
+				BC3900000000000000000013 /* fr */,
+				BC3900000000000000000014 /* it */,
+				BC3900000000000000000015 /* nl */,
+				BC3900000000000000000016 /* pt */,
+				BC3900000000000000000017 /* ru */,
+			);
+			name = InfoPlist.strings;
+			path = Bithold;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-Bithold.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Bithold/Bithold.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 47;
+				DEVELOPMENT_TEAM = RLK79QDD89;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Bithold/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bithold-bitcoin.bithold";
+				PRODUCT_NAME = Bithold;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-Bithold.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Bithold/Bithold.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 47;
+				DEVELOPMENT_TEAM = RLK79QDD89;
+				INFOPLIST_FILE = Bithold/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bithold-bitcoin.bithold";
+				PRODUCT_NAME = Bithold;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DRCT_REMOVE_LEGACY_ARCH=1",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+					"-DRCT_REMOVE_LEGACY_ARCH=1",
+				);
+				PODFILE_DIR = "$(SRCROOT)";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DRCT_REMOVE_LEGACY_ARCH=1",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+					"-DRCT_REMOVE_LEGACY_ARCH=1",
+				);
+				PODFILE_DIR = "$(SRCROOT)";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Bithold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Bithold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

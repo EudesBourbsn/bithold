@@ -1,0 +1,2437 @@
+{
+  "algorithm": "sha256-canonical-json-file-records",
+  "fileCount": 400,
+  "files": [
+    {
+      "mode": "100644",
+      "path": ".bundle/config",
+      "sha256": "1bb9cb652452ff64fc047171561f9d7310319496a03d667703b953a716b3e589",
+      "size": 59
+    },
+    {
+      "mode": "100644",
+      "path": ".eslintrc.js",
+      "sha256": "e896dd5110130f1599c01ed93bda517f3d0f932a165c8a10a5a67af39cc97a53",
+      "size": 373
+    },
+    {
+      "mode": "100644",
+      "path": ".gitignore",
+      "sha256": "0b4b391a67be1fdcbabc906bae28c64713c8b59db4549322233d7666082b3ed2",
+      "size": 715
+    },
+    {
+      "mode": "100644",
+      "path": ".node-version",
+      "sha256": "73fb1b615e2043a933be1c0895cde4358036acc28d785692509b822aa53c761f",
+      "size": 8
+    },
+    {
+      "mode": "100644",
+      "path": ".prettierrc.js",
+      "sha256": "ed7c5f7f2f0f21950c2acbb7425d212bbcf0d7ecd3bdd440af42c67cbb8d6851",
+      "size": 91
+    },
+    {
+      "mode": "100644",
+      "path": ".watchmanconfig",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "size": 3
+    },
+    {
+      "mode": "100644",
+      "path": "App.js",
+      "sha256": "84c29620fb48c35af0b1ea0f23c446a09ea2bf9151b26307e0462c5a80d11ae7",
+      "size": 932
+    },
+    {
+      "mode": "100644",
+      "path": "Gemfile",
+      "sha256": "5a1b74366a1d5198e44969b2ea77c528b16396921447b6008e4f9c9955c88d68",
+      "size": 56
+    },
+    {
+      "mode": "100644",
+      "path": "Gemfile.lock",
+      "sha256": "edd98707c2dcd7128b5c915252d47c0fb6eaa94ffc4fda0fb924d0366cc08153",
+      "size": 2452
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/build.gradle",
+      "sha256": "b0c0e2fea763f27e1cf5076e2dcb070aa00ecc7febcf63a4301783a72f8b5822",
+      "size": 1484
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/debug.keystore",
+      "role": "development_only_android_signing_fixture",
+      "sha256": "221e0a3106aa4c3ccc154e0a418b55020b3f9ea6e84f92e8749cd9e2f39f5e58",
+      "size": 2257
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/proguard-rules.pro",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size": 1
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/src/main/AndroidManifest.xml",
+      "sha256": "e3517aa998a5cbe6c10b54b6a9762e2ee5b381e3a04323ad7ccefba5a476dcb8",
+      "size": 1065
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/src/main/java/com/bithold/onboarding407/MainActivity.kt",
+      "sha256": "e01f778894cd7d5827855a02a540e3cb18602a3055f2de8b40db8c5cfe684905",
+      "size": 516
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/src/main/java/com/bithold/onboarding407/MainApplication.kt",
+      "sha256": "890b2f2796c13a55c502d49334288155adececaab244102c1ee9324d32bd37d0",
+      "size": 637
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/src/main/res/drawable/rn_edit_text_material.xml",
+      "sha256": "3e09ba5b6d54c7f45d07f7d341e44ffa0e9c175399a53e6c78f7bb4020cf3384",
+      "size": 641
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "sha256": "9167a79853c769bf6bf5aa7664d8f88720ad3c3bdf4c104c70f7b73314b91379",
+      "size": 6090
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+      "sha256": "9167a79853c769bf6bf5aa7664d8f88720ad3c3bdf4c104c70f7b73314b91379",
+      "size": 6090
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "sha256": "2aaf7e98cd4b4b2c6443014f0f17d440cfa0a26a1b61359038cfd875b5609bd5",
+      "size": 3383
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+      "sha256": "2aaf7e98cd4b4b2c6443014f0f17d440cfa0a26a1b61359038cfd875b5609bd5",
+      "size": 3383
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "sha256": "e8e81c6d5f6d7e4293f66e28285f41246a98168b251d6672d832dd8f0168b4f7",
+      "size": 9630
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+      "sha256": "e8e81c6d5f6d7e4293f66e28285f41246a98168b251d6672d832dd8f0168b4f7",
+      "size": 9630
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "sha256": "be0d78a9c5e3d35c38f50af985705e44e5ea10c6fae77638495c120c29d343fc",
+      "size": 18048
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+      "sha256": "be0d78a9c5e3d35c38f50af985705e44e5ea10c6fae77638495c120c29d343fc",
+      "size": 18048
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "sha256": "c191bc77ae42bb22db93f441375c23f8d395d59c004ae05ae75eebcd6f550a94",
+      "size": 28803
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+      "sha256": "c191bc77ae42bb22db93f441375c23f8d395d59c004ae05ae75eebcd6f550a94",
+      "size": 28803
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/src/main/res/values/strings.xml",
+      "sha256": "258c116ff4c80b9aa8d471737d8f06459241e5a031067fa1faf19feb2e578c9a",
+      "size": 70
+    },
+    {
+      "mode": "100644",
+      "path": "android/app/src/main/res/values/styles.xml",
+      "sha256": "2280266e57666d47f5060aabbf54ac665ffe3a512adb87e0cd9640c295b30e01",
+      "size": 276
+    },
+    {
+      "mode": "100644",
+      "path": "android/build.gradle",
+      "sha256": "0e23d433bd6be8444f78dee6b1e789d3c45fa6377307de94b4dba85a08eea801",
+      "size": 546
+    },
+    {
+      "mode": "100644",
+      "path": "android/gradle.properties",
+      "sha256": "5f9983f24f7889299bb6535cbf570e4f1daeb14c010c9e8b454c4dac055c42c6",
+      "size": 258
+    },
+    {
+      "mode": "100644",
+      "path": "android/gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "55243ef57851f12b070ad14f7f5bb8302daceeebc5bce5ece5fa6edb23e1145c",
+      "size": 48966
+    },
+    {
+      "mode": "100644",
+      "path": "android/gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "70fa201501995e6f45c0c475def71093f8115849344c48322ca997cfddba8534",
+      "size": 252
+    },
+    {
+      "mode": "100755",
+      "path": "android/gradlew",
+      "sha256": "aed171fb114f82e6eaea4970a245a200e0582a7dcc8ec0891ca41b6e4a62b754",
+      "size": 8654
+    },
+    {
+      "mode": "100644",
+      "path": "android/gradlew.bat",
+      "sha256": "982f1b2979dd2d13505c11e92192ab43eef338242ca61587f86f8d7fbc86f67b",
+      "size": 3093
+    },
+    {
+      "mode": "100644",
+      "path": "android/settings.gradle",
+      "sha256": "8ce0b015fcae1ac098b8304a99e5e4d1999faee67ca879dccb54c449eb400ef1",
+      "size": 356
+    },
+    {
+      "mode": "100644",
+      "path": "app.json",
+      "sha256": "64d3db8bc782f97493d099212dd1411b6bbb89a28603735dc7533b4c542bc971",
+      "size": 52
+    },
+    {
+      "mode": "100644",
+      "path": "assets/branding/app-icon.svg",
+      "sha256": "958ad669d376d40de185b5b5a569cf3cfb6c260ef5a08df6b4b03ef57381c9e6",
+      "size": 2165
+    },
+    {
+      "mode": "100644",
+      "path": "assets/branding/logo.svg",
+      "sha256": "d311e7888659702524577a8bf9faf64c6ea9c40367fc70f1a426174fa109a898",
+      "size": 378
+    },
+    {
+      "mode": "100644",
+      "path": "assets/fonts/MaterialIcons-LICENSE.txt",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "size": 11357
+    },
+    {
+      "mode": "100644",
+      "path": "assets/fonts/MaterialIcons.ttf",
+      "sha256": "ef149f08bdd2ff09a4e2c8573476b7b0f3fbb15b623954ade59899e7175bedda",
+      "size": 356840
+    },
+    {
+      "mode": "100644",
+      "path": "assets/icons/bitcoin-mark.png",
+      "sha256": "d596cf8398907eb49bf6a592df115ee48ffdfae0fc4db23eb4aa05f6996459a3",
+      "size": 31621
+    },
+    {
+      "mode": "100644",
+      "path": "assets/icons/bitcoin.png",
+      "sha256": "d596cf8398907eb49bf6a592df115ee48ffdfae0fc4db23eb4aa05f6996459a3",
+      "size": 31621
+    },
+    {
+      "mode": "100644",
+      "path": "assets/illustrations/status/icon-plate.png",
+      "sha256": "162d4eb0fcda19dcf188a05b7949223e23b8aa2acf6e5962cf6106a0f3d006ad",
+      "size": 260232
+    },
+    {
+      "mode": "100644",
+      "path": "assets/illustrations/wallet-removal/success.png",
+      "sha256": "a08764aed19f7d27fc139c68590feb19a6f199c3a34d313c2fe2a3e8b85367f6",
+      "size": 4853
+    },
+    {
+      "mode": "100644",
+      "path": "assets/illustrations/wallet-removal/warning.png",
+      "sha256": "ed4a49129392ff6dbb4868d12cf147eedb077f74e0912b5e1074a2ee38cc6b5a",
+      "size": 84766
+    },
+    {
+      "mode": "100644",
+      "path": "assets/sounds/receive.wav",
+      "sha256": "9da01be245a71ba5c9e3706c11664618af717092876404947810a11c1710a3fa",
+      "size": 79584
+    },
+    {
+      "mode": "100644",
+      "path": "assets/sounds/send.wav",
+      "sha256": "bf3531bda0f0047d59251a49d08aaa25c44635bc57e6dc597c571eeffa03f1c1",
+      "size": 330078
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-01.png",
+      "sha256": "2c32878c4b6ca8bf4955e421af6b7cd62357a06e090f63ded9aba3bbe2502c7c",
+      "size": 1119
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-02.png",
+      "sha256": "a23ea38349e903582c0b76a27d50d779a18d12e2cfb66829bdd047d1035d28d8",
+      "size": 1378
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-03.png",
+      "sha256": "e5deafa45d478ed2d623d6d471404de6139e4b2bdac2451adf583519c2b13c19",
+      "size": 1142
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-04.png",
+      "sha256": "08cd099c1f596855a3db1362bece0331f4d07ae945327336a7aca14f82daf637",
+      "size": 3067
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-05.png",
+      "sha256": "7f1999eb17bd3251d674c5ef16fd13bc4e1aa749e1ad822f09f22f3fda4fe1a4",
+      "size": 1515
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-06.png",
+      "sha256": "6fd44e19da96a940251ac3395514d458c781d7fbff7d471f09160af88eec00e9",
+      "size": 692
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-07.png",
+      "sha256": "3aab2fee5fbd2e550788784b27036e674bf03b2ea691492b8d14d22417d498ea",
+      "size": 1016
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-08.png",
+      "sha256": "ee06dcef37322a79822a3c85f4dcdda2b4b0998b61fa522f231da0baf62bb478",
+      "size": 2876
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-09.png",
+      "sha256": "12b28f326ad33f02e6c439676d8ba2ce4209d76cbbb38eeec8106847eba1584e",
+      "size": 1556
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-10.png",
+      "sha256": "7cd1fd5251b5b50ca973b97118571c94327979e977feca23b98bae3ba535837f",
+      "size": 1550
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-11.png",
+      "sha256": "26cd79647be4c5342801e7154093a5f6bc94b5bea410c3086d8ba3c125dc9c43",
+      "size": 1534
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-12.png",
+      "sha256": "c19b0aeda88faa818accd15a5bebe31833fa8ecc01970db5d889b4d5a6cbdb41",
+      "size": 1893
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-13.png",
+      "sha256": "311e03e4bdd4bb3d4fc57d8ed2efc24d34204006c76ad36adf3e57fe07d7d1a6",
+      "size": 1861
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-14.png",
+      "sha256": "5d5e80425010307983255c9f272754e359c2dd32fc0cc6e369b2a653f16a6b20",
+      "size": 1532
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-15.png",
+      "sha256": "b993d65e3890a8aacc3a3ddc39e95b47239d5d6561dfca8c9a9b2c9fc105d3eb",
+      "size": 2842
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-16.png",
+      "sha256": "572f13d4216878a0212a5445609dc703c4b6c86b7511e0305a94183067c76cf9",
+      "size": 2899
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-17.png",
+      "sha256": "49d36367e1f6ba5e3f077636b68b558615a5dc4adeb9dfdfa38a431b8b28a5f9",
+      "size": 2955
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-18.png",
+      "sha256": "dbfe074b33c36c7f4a079b5989477cf55196f0b13c0be9d11744c302911d1d29",
+      "size": 2769
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-19.png",
+      "sha256": "8b6a19c34b9981b0db7e275d30be77d2d4232b5e2b06f3721882603f0c9f7523",
+      "size": 2120
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-20.png",
+      "sha256": "cb0d1d5f8251cc568daef74d630fc0404bf4abe8d6b281d27e47501f44df5787",
+      "size": 2503
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-21.png",
+      "sha256": "f6db4bbae2733b8c27b9af267cdc869424bd515cd5b28843878742ddccdbea4c",
+      "size": 2232
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-22.png",
+      "sha256": "07aa6d3c6448ac98394a6030c15ab3b20615bf06c81be058f57fb7b35e404bca",
+      "size": 2859
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-23.png",
+      "sha256": "068acc35b29ed900493e7384441a3d7ab8b513668e701c47cfd2d67b45dfc6b8",
+      "size": 2375
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-24.png",
+      "sha256": "b85bbf74ff8d002bc62a21b6a03e5cc5ad11d17a3d6f64cf2feede4d29ffcd8c",
+      "size": 2240
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-25.png",
+      "sha256": "d7d1d59611b931143d422caa7363497ec260318bdff321a68131f1fe5b0b8738",
+      "size": 2399
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-26.png",
+      "sha256": "58f3e979e1fc87c225e6289c974706710cd7de400523854a18b3621d4891e2ee",
+      "size": 3270
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-27.png",
+      "sha256": "e615d9744ce343a7fed6c531de51be68b60854807ad3cc203a3cfe56d20c5960",
+      "size": 2410
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-28.png",
+      "sha256": "6518c288bac210cd1731c733f817e1641562c2f23420cfcd66e2dd3166cff6ef",
+      "size": 2482
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-29.png",
+      "sha256": "973251bbd002d07ad9313f94a7466faf8f4db461a8c8081fd3306a0f2d080e04",
+      "size": 2401
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-30.png",
+      "sha256": "90b46d3b1f73319c363b5c14b5cd0b9c6103f3e77660769e38869e42b20cb202",
+      "size": 2378
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-31.png",
+      "sha256": "07024c89cb76ef0a3a2ab74abf58a0a9bbd04d07db1cc4ddc59c423730fd9bb7",
+      "size": 2363
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-32.png",
+      "sha256": "068ba3bfbbadf11c363d115701681d7723890ebf1d599f04ce73cf02a97fbc5a",
+      "size": 3068
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-33.png",
+      "sha256": "84df475845f31b59820c0a5e83c36f8b81fbf421abfcf4c3d09a663e9f13f2b4",
+      "size": 3077
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-34.png",
+      "sha256": "ca91e6c76f423f4eb24f1647f820d81681ce3f206300cc890ae3fe39a2a3909a",
+      "size": 2838
+    },
+    {
+      "mode": "100644",
+      "path": "assets/wallet/avatars/avatar-35.png",
+      "sha256": "ebb3334fe75045b341f8501f51cd554c2afd8bcae12e4958166178a916fbbe0e",
+      "size": 2828
+    },
+    {
+      "mode": "100644",
+      "path": "babel.config.js",
+      "sha256": "414d7952e21b0d1408a4e3797f6a6d6cf6bfe8201740c5ca5304646151c86e06",
+      "size": 117
+    },
+    {
+      "mode": "100644",
+      "path": "deployment/passkeys/public/.htaccess",
+      "sha256": "ded9c8a2b55520fd2911d2f5a31f2ce4c9da62d52fb266b5f6c111b369f02640",
+      "size": 159
+    },
+    {
+      "mode": "100644",
+      "path": "deployment/passkeys/public/.well-known/apple-app-site-association",
+      "sha256": "b14c512eb2f403452fbb693cb28b395bf8db1c80b7485863a566c93fb3d4ee6a",
+      "size": 132
+    },
+    {
+      "mode": "100644",
+      "path": "deployment/passkeys/public/index.html",
+      "sha256": "70ebabb33ec6cbbfe4482898f15f4b5340930a4c4b0164c8e1df32caafa3b140",
+      "size": 234
+    },
+    {
+      "mode": "100644",
+      "path": "index.js",
+      "sha256": "4499e01c0799f23d62ba551c9f69d2f4c47c0fbaf274c555a64c6e339f602829",
+      "size": 197
+    },
+    {
+      "mode": "100644",
+      "path": "ios/.xcode.env",
+      "sha256": "68b46be39cb1b344ca084caafc866d0b07c28812f7e8b9158aae4c3161214361",
+      "size": 270
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold.xcodeproj/project.pbxproj",
+      "sha256": "6859cb96c98a2c1976f752d1478c1e45896ddd5045406e53d669053d419c373a",
+      "size": 33048
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold.xcodeproj/xcshareddata/xcschemes/Bithold.xcscheme",
+      "sha256": "f766a79506cad7f6289c69d0ce212784ab2d1446843906ed4722316152a4decb",
+      "size": 2540
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold.xcworkspace/contents.xcworkspacedata",
+      "sha256": "e35d9736bfccf728ee1cebe4d044791d5b6bc7c078a36256c9bf650cf9468c96",
+      "size": 225
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/AppDelegate.swift",
+      "sha256": "b9569eb82b73976c8f12453a3885f40000878daf824cf6020dd37d49e540d337",
+      "size": 253
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Bithold.entitlements",
+      "sha256": "0418ce1fec2bf673384b91c6d4346866cdf13ccfd77a4256ab6b256bf4307272",
+      "size": 515
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdBackupCloud.swift",
+      "sha256": "44b78e24424482317273464f96699a2becba3758d12f7d1c8d7f5ef1a72865f3",
+      "size": 6390
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdBackupCrypto.swift",
+      "sha256": "eeb90904fe8a3e2be8f99b57fd4fdb89207ae770b75f754ec9111b3ccccbb54c",
+      "size": 4260
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdBackupPasskey.swift",
+      "sha256": "76f106d2a50d169a3ffe0fb1edf9edb6047b1c8a1aaa6f7a39d32ce60d0eba06",
+      "size": 5004
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdCamera.m",
+      "sha256": "346e7725985c58ff4ca22560c588f3c36efec80ac37b6e89af16f4b9e48725e1",
+      "size": 3772
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdCloudBackup.swift",
+      "sha256": "18e2c39b547914f8be773f4fb742139c6868d266c07d88e95d71f98ec0109d35",
+      "size": 14402
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdCloudBackupBridge.m",
+      "sha256": "45a1e5336ab94df5c28ee66e6c9f9eacf27d1a47d3674c5d7c938428f85d6786",
+      "size": 828
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdContextMenu.m",
+      "sha256": "b953516fb631f807c6b2024f87a639175e2fdd1fe8fc5a5ca9f457b18bf28045",
+      "size": 3251
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdFeedback.m",
+      "sha256": "5be5c6694fc9eadefa2b9c8f7a2ffee0d80f51f3bab5adbac9112673ebce0a57",
+      "size": 2884
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdMedia.m",
+      "sha256": "262cc35a44ac11c0b7254719f3692c779b1b0654762e9d4eac6cdf9c0dad185a",
+      "size": 18721
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdPhraseCompletion.swift",
+      "sha256": "d82c6074fa4d7bbe302cc96d9ef5870782fe0d9265f1007e956aba0955da82cf",
+      "size": 2536
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdPhraseField.swift",
+      "sha256": "2a443f8ecd7924e5a3c2d5198b205cccd2e048635a6244714e3b52ff2b8872e3",
+      "size": 13822
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdPhraseFieldBridge.m",
+      "sha256": "2d657b1510260cd72a6c55068241f02c6afae5a3f9488dad91645839b3293c69",
+      "size": 1078
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdPhraseKeyboard.swift",
+      "sha256": "af4813235f5e21776b4069355c448cf283bb697286933f82e2ee05f590bde512",
+      "size": 17004
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdPhraseTextInput.swift",
+      "sha256": "6f35d136e4a83ccbc40874749f2bfa493b59ac8a59b1d6c061c4de8cac7743b7",
+      "size": 14129
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdRefreshMotion.m",
+      "sha256": "3bad3366e953226c9eec5fe4eb0bcf060e01a548452279c1642c96d8d1e64155",
+      "size": 10254
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdRefreshMotionMath.h",
+      "sha256": "e1a0af297cae58eacea75f5984c4b7566df21abdb41a5bb63e65b7d88031b4f1",
+      "size": 5273
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdSendBlur.m",
+      "sha256": "7b81250a502600916b5fb0faf8be2186f7d347866147f8c3a8f14132fceddd47",
+      "size": 881
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdSymbol.m",
+      "sha256": "a3384837059dfd069cf5411cd9e5a44169f14b4ed3810d9b8d97678e2e570b0e",
+      "size": 3403
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdWallet.swift",
+      "sha256": "24ab1f820d276d598c1fa0c324defb35c857d55719a7bacdbf52a78e0d7ed8cc",
+      "size": 21400
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/BitholdWalletBridge.m",
+      "sha256": "7377c4ff6197fd21c7140b4c95b2247276b12cbd3c81d51d2032ab1c2e71e205",
+      "size": 1805
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Images.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+      "sha256": "5859311a149acef1f31940f2b5e73d57fbbacad7f1e35b77db4250e21ab50325",
+      "size": 661605
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Images.xcassets/AppIcon.appiconset/AppIcon-120.png",
+      "sha256": "fb115f3042c366209241b58c7ef8f359b262c71cfa33027d43a98fea758f89d6",
+      "size": 13537
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Images.xcassets/AppIcon.appiconset/AppIcon-152.png",
+      "sha256": "1fee469a0a1bf1f70d6df23bd26d8691178de004cc04c5e279629a1dc2c3b30a",
+      "size": 19740
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Images.xcassets/AppIcon.appiconset/AppIcon-167.png",
+      "sha256": "bca2d3e07a6b27c43271f33474ff3af5bf3c2f09571868b1219ca16104bb111c",
+      "size": 22944
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Images.xcassets/AppIcon.appiconset/AppIcon-180.png",
+      "sha256": "a124edf78ab66bda06abbcf2f3f5f32057d889bdd7f88fd80de436e02a51e0cd",
+      "size": 26099
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Images.xcassets/AppIcon.appiconset/AppIcon-20.png",
+      "sha256": "43ada2442ad210607649dfc708cce7e4cf5c5d9a2b06c61c54455a9bc1ff04b3",
+      "size": 988
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Images.xcassets/AppIcon.appiconset/AppIcon-29.png",
+      "sha256": "c9f9bfb714ec975a6d37934019130afab190fa63804ef59927c984afd659c81d",
+      "size": 1618
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Images.xcassets/AppIcon.appiconset/AppIcon-40.png",
+      "sha256": "007338e244c4f7ac7f79ba32ad911d1d2c57da5b80eb617ada004657ad30d53a",
+      "size": 2599
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Images.xcassets/AppIcon.appiconset/AppIcon-58.png",
+      "sha256": "e9d782e03f5926135a941769222d2666759fdf31fa556bf7273aebdb382ebad9",
+      "size": 4479
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Images.xcassets/AppIcon.appiconset/AppIcon-60.png",
+      "sha256": "ce7250605c3021ae549a09a86eb419c654f6c5751bdbb1f18b4801154d853a6c",
+      "size": 4638
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Images.xcassets/AppIcon.appiconset/AppIcon-76.png",
+      "sha256": "5bef07fe4effee04d5829dfecadcea38f3baefd6ce1864f35928b490006b0f8c",
+      "size": 6681
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Images.xcassets/AppIcon.appiconset/AppIcon-80.png",
+      "sha256": "7e64d85f2160ce9edc80ee637aa5df498660a65790ce5531dfaa5ad54442a779",
+      "size": 7221
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Images.xcassets/AppIcon.appiconset/AppIcon-87.png",
+      "sha256": "e3ae982d7878ce766ae9223daafb869560d6b8b7df247f8ddf843cacd00bcb7e",
+      "size": 8274
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Images.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "65511e9bf250b7aa880b64a06b8b6438918219dfcc98d7c16f09ad71806514f3",
+      "size": 2305
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Images.xcassets/Contents.json",
+      "sha256": "991ae939fbd598450a066b66404e06c5ae9b7d37e9aa0026de9e318443ba46fb",
+      "size": 63
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/Info.plist",
+      "sha256": "0a30cce7561652b4b09aaa661cedd7848c649a2f29923fd40d6cc74f77b9565d",
+      "size": 2641
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/LaunchScreen.storyboard",
+      "sha256": "07d880c9b59a1a82927459ebc320b4b23e771a91483b6cce5b17732bc3a802de",
+      "size": 1481
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/PrivacyInfo.xcprivacy",
+      "sha256": "590759b762398ab2ffe8e0d4dae6d61d6c202a2d6c3567eb90dcc6de9cd9c3c1",
+      "size": 986
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/SceneDelegate.swift",
+      "sha256": "6290eda13538e7947d9ca3821e8ba0133f605e31195f3f07d9af3c4a37e3b98d",
+      "size": 1833
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/de.lproj/InfoPlist.strings",
+      "sha256": "b4765c86946d959499b20eaec376a193036b355de9a3897473ab790bb90d458c",
+      "size": 248
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/en.lproj/InfoPlist.strings",
+      "sha256": "a220b98cbf392b94c376d77c20f113ce44cdd6234db81ce371188c042d50ecf4",
+      "size": 207
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/es-419.lproj/InfoPlist.strings",
+      "sha256": "12c34ac975e1b36cdfb4f04c626c596b0f7068945512d25757d655b2efb70def",
+      "size": 296
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/fr.lproj/InfoPlist.strings",
+      "sha256": "ae214d350234042ce1655a71912fd4fe656c8b061aa4589e0ff91d97be0aed07",
+      "size": 242
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/it.lproj/InfoPlist.strings",
+      "sha256": "aa1efd3530343130de716443807cbf7fc29767278865df07645854edf0b71180",
+      "size": 229
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/nl.lproj/InfoPlist.strings",
+      "sha256": "89a91368f970961a37679f5fd14f23d06d89e85ea6ff65dd6344cb5cd9e9c41e",
+      "size": 268
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/pt.lproj/InfoPlist.strings",
+      "sha256": "b0ed4fbe25a28eda1877175c74993b5fea59fb399114ebc62cb6dd68cf888613",
+      "size": 317
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Bithold/ru.lproj/InfoPlist.strings",
+      "sha256": "02e04c7d00f8e7f737cbc885d698bc67172020597e3f17b36696552aa587676b",
+      "size": 389
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Podfile",
+      "sha256": "8f8e0be5b03f7885a81f6cf83fb9fa46ba0b7e67f2696c2c344262daf0bf785c",
+      "size": 773
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Podfile.lock",
+      "sha256": "37a688842eebfbfa659d3a4c786f8599d3c6ab7555e5b4228c7352ec81413ae7",
+      "size": 76824
+    },
+    {
+      "mode": "100644",
+      "path": "metro.config.js",
+      "sha256": "999a6c56d134b18424ce2f1970cc9d9d2e96c4d009db08362b98882e2e6926f6",
+      "size": 848
+    },
+    {
+      "mode": "100644",
+      "path": "package-lock.json",
+      "sha256": "7ccd71c80222e876f063d7ccb03b2d682e866b006621608d2b0a35b828e12d48",
+      "size": 407635
+    },
+    {
+      "mode": "100644",
+      "path": "package.json",
+      "sha256": "a4f91485b1abb652e107cd6eb61b835d6cb451fcd70b440ae47279bca67fc058",
+      "size": 1877
+    },
+    {
+      "mode": "100644",
+      "path": "patches/@react-native-menu+menu+2.0.0.patch",
+      "sha256": "32d1402c1da425650756355442e84420b664d509187ffb595426010f1d5e501d",
+      "size": 1930
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/archive_ios.py",
+      "sha256": "b9c8eefd75bc3073030b150d1386b035b78cb46f7d4d933a3e250322814fa5e1",
+      "size": 4389
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/compile_hermes.py",
+      "sha256": "51bf8a1712c3135f06e221517d0bd36443ecaa943b56d3d3d911f36ae3524c5e",
+      "size": 983
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/generate_app_icons.swift",
+      "sha256": "dd48c93544fbe465e0b5ba5466fd3c9d527aa5b111cb258e166461dda35a0cee",
+      "size": 9759
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/install_ios.py",
+      "sha256": "6b1ff37ed6d9328dedb2bbe89db65fecefab89de0fbe5f6b0b04233965621af3",
+      "size": 3770
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/install_ios.sh",
+      "sha256": "f5377670ae9762eabae4810181fc6f513995579a6da9fb18eca7e0257bb9d259",
+      "size": 69
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/release_manifest.py",
+      "sha256": "9e78dc8bc1e07621cbaa16b1bdb2807c9a90bdfd9d55f8654c25b00835e4214b",
+      "size": 13461
+    },
+    {
+      "mode": "100755",
+      "path": "scripts/verify_ios_bundle.py",
+      "sha256": "c7d8ca2c612a8344d5adfa61ad01bc025dce1299aa79b274f12eb943aa3ffbb9",
+      "size": 6324
+    },
+    {
+      "mode": "100644",
+      "path": "src/app/navigation/AppNavigator.js",
+      "sha256": "d46ae62779306362fd07b0357050181cd7fa5a29f5d030178fa945388e64004b",
+      "size": 3283
+    },
+    {
+      "mode": "100644",
+      "path": "src/app/navigation/navigationRef.js",
+      "sha256": "7d8000c8a6338b4ec68cf768d7c8d223b80b56e8a2ffbf117b5e1822101102b8",
+      "size": 258
+    },
+    {
+      "mode": "100644",
+      "path": "src/app/providers/WalletLoaderProvider.js",
+      "sha256": "deedd8b1862f2b9639683d8083d7b9d6dac2525e18a0f8714bf8e1a72b928f61",
+      "size": 2499
+    },
+    {
+      "mode": "100644",
+      "path": "src/app/providers/WalletProvider.js",
+      "sha256": "76431eed72924d6664795f106a3cab6744cbc60825bac1cc978bbe22ebad10c1",
+      "size": 3283
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/backgrounds/AppBackground.js",
+      "sha256": "611787a7f93f16d44e5b9c3640d1f401efa9201605d8d7235bcfd693ff046885",
+      "size": 1025
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/branding/BitholdMark.js",
+      "sha256": "a20f6517d94d46d2a9aba45a13abc21d2061101ece29c83da3ac935f90248601",
+      "size": 466
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/branding/brandMark.js",
+      "sha256": "493ef1216d697a5c30aac4b84b86b232e98f198d80243bb769710e0fe5bd6a04",
+      "size": 316
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/buttons/PrimaryButton.js",
+      "sha256": "73e49aca2f8c9c4d297eda7f2ecd39a468b9355d378414e10c4c24d08c30aa0f",
+      "size": 1013
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/buttons/ScalePressable.js",
+      "sha256": "3cb4ea96dd65015e7a1ac1f282eb45c41ebcf81ae86ddfa6d5cbdf0a30990c5f",
+      "size": 822
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/buttons/SegmentedControl.js",
+      "sha256": "8edfecbb02297939b7ea2808e13db16e7b6a22c8c726df876a1fea259a2bd88b",
+      "size": 743
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/feedback/AddressBubble.js",
+      "sha256": "44710426c00dd23d87f40e780142cce5a60aeab241ed7de912a2f0c228dca08f",
+      "size": 7069
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/feedback/tooltipGeometry.js",
+      "sha256": "9d6b70e35cb98c07bb12a5178fb4962450f3d2d19a9080b2944df96cf9acaa12",
+      "size": 1163
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/icons/Icon.js",
+      "sha256": "3a005ac1e1accc2709754b8a9ed5f444a63d118f724be19796d0336e7f070c6b",
+      "size": 1958
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/icons/iconSources.js",
+      "sha256": "97dfc2a69cad331230c727bcb2a49825a9e8f74b934b3b1d5a8147cf41ccf99d",
+      "size": 3434
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/illustrations/StatusIconPlate.js",
+      "sha256": "63c69a9cf526a5ccb5eaffcd4ab5e2f75b7041efdba8d7f74c10846988e4ddba",
+      "size": 1530
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/loading/Spinner.js",
+      "sha256": "982f72b4922366c9c0b1d182d7bb33c17503df003b25b78e07045a0bbf67e073",
+      "size": 3260
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/materials/NativeBlurMaterial.js",
+      "sha256": "143fe57be261571170d5033e2938cbb591824b1e95a7f9291ed5a2b706e2f2ae",
+      "size": 182
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/AdaptiveSheet.js",
+      "sha256": "6a36703caf848ac51ef70b9a7119a6ddabb32688614e1e2794de3f4c59bb88eb",
+      "size": 58
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/BackHeader.js",
+      "sha256": "448b541dab5ba07e32a37ab7054636d734a441c23c11c27fca91cf9b07c583c3",
+      "size": 604
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/SheetButton.js",
+      "sha256": "d6d0ee6dbb52091cce396d41a2cd5fa6e36332c02b06db75c6fdedf83d6eefee",
+      "size": 701
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/SheetGestureContext.js",
+      "sha256": "ee1d363b0f42b28291a5271919c7219c093c8120c0227f979f5a518153b577a1",
+      "size": 209
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/SheetGestureLifecycleContext.js",
+      "sha256": "3d0dd655f83f6ad032a7eae737e2c04b2d2954f23a01b2c3e4773f84e921263a",
+      "size": 105
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/SheetHandle.js",
+      "sha256": "734bfc89d577fec5cd4b6b8f91be876b9a23f95e63422f2d6802539c469b5fc1",
+      "size": 658
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/SheetHeader.js",
+      "sha256": "4ee2938632f9ce77524a2572b3d48fa23109f30930512aa66cd19ec8467d7256",
+      "size": 2723
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/SheetHost.js",
+      "sha256": "b5bb5c848615c0580c93f18a738f8eccd7683a13c5f868d867d886ad3d1a7bd7",
+      "size": 16708
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/SheetNavigationButton.js",
+      "sha256": "fd49ffbe2269379744e088697c36a26bcc7573148b005149039ce47544135788",
+      "size": 1268
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/SheetPresentation.js",
+      "sha256": "9862ebb3c2e7c43a01c563ae0b072a284b7e7aaa911cf2945166d7ce89e08c44",
+      "size": 1437
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/SheetPresentationLifecycle.js",
+      "sha256": "fbf824773e2b0620d97524188e9f944521764501c1cc7186834710b52076e7a0",
+      "size": 5021
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/SheetReadinessObserver.js",
+      "sha256": "ae65d75bb846af56d87a92a86a88c6fe0de029a6f319abf260dea12b1a250bd1",
+      "size": 819
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/guardSheetGestures.js",
+      "sha256": "774a19c44c329e7bb79436223a8a69bc30969cbf21767992bf87c963a0d3d663",
+      "size": 1018
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/motion/receiveSheetSpring.js",
+      "sha256": "6029434aa2f7ac61072f0a4e76ddbf1e236db184c287ef9383c972453493c4f9",
+      "size": 172
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/motion/sheetAnimationAdapter.js",
+      "sha256": "77529b1e770b61809c8cd982f9fabc68743abb7dd6ca7384000f90dd09c32143",
+      "size": 682
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/motion/withReceiveSheetSpring.js",
+      "sha256": "c1d44aa35d187307c2233d1c35f84ee3f4807ab49c93a083d0cf2e86605cc2d6",
+      "size": 2623
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/sheetMotion.js",
+      "sha256": "2cc93a394ea62b48a2ecc25f35d543bc7469eb97a9e897320b61009455e64c4f",
+      "size": 77
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/sheetSelection.js",
+      "sha256": "20ae2c3c23975b81474ffb7d98e47d0cd1f19c0cedba98c78c3a008240eb9862",
+      "size": 308
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/useReceiveSheetGestures.js",
+      "sha256": "98bb9c9f1e1e2bbde25f342d16139cc6cddf2bebb4564387e9d56e443e9ed1dd",
+      "size": 2806
+    },
+    {
+      "mode": "100644",
+      "path": "src/components/sheets/useSheetHostGestures.js",
+      "sha256": "1bff64ff047db20b7b4a0032c90131330d2592dbc921225d05b096ebb736362b",
+      "size": 2222
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/components/NoteEntry.js",
+      "sha256": "ad2f27efc56a44236a6aa1149a7397be46b81f6292ef55be642fa70e137da2c6",
+      "size": 2106
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/components/PendingPaymentBox.js",
+      "sha256": "6ee09fcbe5cc416c0c0aed43dc735a5b787204d0298ae4c14c4258bf925e2b09",
+      "size": 2909
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/components/TransactionAssetIcon.js",
+      "sha256": "7dd459e4a8a46116825e78f92e29079f68f7f7091773d3e0f36594a71d94e617",
+      "size": 1168
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/components/TransactionGlass.js",
+      "sha256": "9f1d5bffd81e214fed47ee6bf1020662066d1d5f33c1ea4e423f8c40038d907d",
+      "size": 2795
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/components/TransactionHero.js",
+      "sha256": "54edfa8bbb2cedf9c443d661b16a293ed0455f111c3b25698178a774f56c30ea",
+      "size": 3032
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/components/TransactionLoadingDots.js",
+      "sha256": "3afb5dc9e6a85941032e28eb6b8192cb0cc9cbd25bfa708beaff16d5ccf21ca7",
+      "size": 2074
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/components/TransactionRecipient.js",
+      "sha256": "5e5936d4c51ae957667b4bcb867f59dd032409cc77210d55b87b652064abe8b9",
+      "size": 7586
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/components/TransactionRow.js",
+      "sha256": "33d4778d7bf6ce4f99f68c706aa7b0b616575a2a0ae64ee57fc6f5ebfa466ebb",
+      "size": 2457
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/components/TransactionStatusIcon.js",
+      "sha256": "e2b8e8ba13b81eb006aff19979c009e8a327f53dd22f5311b7970a5bfcd7e3b9",
+      "size": 812
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/components/TransactionWalletIcon.js",
+      "sha256": "d572237bc5b65cd85b5d6ac2ac7f7b7dbf1334cbe19462e58a9c24605086cef9",
+      "size": 1136
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/domain/transactions.js",
+      "sha256": "1bee27bc3cf52000ed661f1bb0a3b189ba9a0bc5e693f7743b7f4558cd84fd9c",
+      "size": 6373
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/sheets/TransactionsSheet.js",
+      "sha256": "08a9709b8e4adf3c199a519250e148c212acee2decae147a8dde19ac6825d093",
+      "size": 7304
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/steps/PersonalNoteStep.js",
+      "sha256": "d74aea8ed003ffcc34a2076b5898ec7cb3f17f06cdadcdc935598572f0e60a76",
+      "size": 555
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/steps/ReplacementStep.js",
+      "sha256": "77af72209b554146c39f4623c13e40f6e346bbdc1085ad24b971e7e8e24c0156",
+      "size": 6131
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/steps/TransactionDetailsStep.js",
+      "sha256": "0de2d67dbd66a610bc7313fea53e089ee32b4807f92924d90c07e4f4f30972a3",
+      "size": 7151
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/styles/TransactionDetailsStep.styles.js",
+      "sha256": "a7d2e31c08fed02bfceb380592229872014487758ef1ceee5b49f8dfcad8a431",
+      "size": 5334
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/activity/theme/transactionVisuals.js",
+      "sha256": "3c94173770648e977d713bc1e4470496bf59d58ec3bf496b26e6d311434d5afd",
+      "size": 1606
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/components/BackupIllustrations.js",
+      "sha256": "4a495e433671179c1ed85ad73e645bb8025f6584b82d57c9f342be16529f7423",
+      "size": 1596
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/components/BackupStatusPill.js",
+      "sha256": "2af7e1c0f4ba86f8663b6a24f3041278415253543d623bb53c1c238622db6453",
+      "size": 3316
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/components/CloudBackupContent.js",
+      "sha256": "2d8bc0f82d0ec97530ed4505fb655b8617ef20a08bcbfd78f37700510ff00047",
+      "size": 3916
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/components/CloudBackupPicker.js",
+      "sha256": "7613adfd265dd29eaa7d76e9ee88835f78170a484b617461b3d3084aecf66f8a",
+      "size": 5461
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/components/CloudRestoreStatus.js",
+      "sha256": "078a2851f1842aac8eff449af30e2d0e6042ce0bced8aed73d8b9476e52280a5",
+      "size": 2047
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/components/DiscIllustration.js",
+      "sha256": "41e1ad4a05fbbca275ceee04abe9d578d5d7848be547c6f30164671a874c50de",
+      "size": 4493
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/components/RecoveryGlass.js",
+      "sha256": "064000c098e8675a39d06f7c386bd8c9f99ff7378a774bd58c341dac76575dfb",
+      "size": 2315
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/components/RecoveryMethod.js",
+      "sha256": "2c75a616bbc33170dbdd82b201fd7256fcee41c38814d218dac2d8ac38882aaf",
+      "size": 3262
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/components/RecoveryWords.js",
+      "sha256": "3abc54b5fc568b4310020b7e2f3637a863a2684e0b043398c5d3cb38a35acc24",
+      "size": 2225
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/components/RestoreStatusIcon.js",
+      "sha256": "917115b4671319019fab3eba6589282078bdff6bae23540a087249797bda8b88",
+      "size": 646
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/components/WalletProtectionIcon.js",
+      "sha256": "53bbac222f58a4e1422306e60cfe7fa104385b6dbc9c61de9d2dd65495f79f6f",
+      "size": 507
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/hooks/useCloudBackup.js",
+      "sha256": "267c8774639d8055e3552fb9d3ee8d470c7cb5f2dd0392018ac5d729131df7f2",
+      "size": 5105
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/hooks/useCloudRestore.js",
+      "sha256": "6a46a11cc1f8a7b81347470f7736e61e3a0140c9ebf11d9b64aff8516b419e1e",
+      "size": 6175
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/sheets/BackupMethodsSheet.js",
+      "sha256": "997617c10cc46b229ea1797c8a68d0c145883aa415a2972dd6b829ddd1e7b082",
+      "size": 1569
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/sheets/CloudBackupSheet.js",
+      "sha256": "368e1a75707b24caadf5e8f49392c256176620588aac2b05ecffc5e32ecea99a",
+      "size": 1898
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/sheets/CloudRestoreSheet.js",
+      "sha256": "98748e0295e629a062c2eae71f688f14bf8c9be3607c418b667be82fe3f4dd72",
+      "size": 4627
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/steps/WalletBackupStep.js",
+      "sha256": "60a89da8cc318b296011680e1f35a6108f438af65b8be4b94692a36d2ab22702",
+      "size": 8909
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/styles/CloudBackupSheet.styles.js",
+      "sha256": "eacc8bc1a014f1dea01ae03349eed303f65bc34dc79902fa96ebf3f20490653d",
+      "size": 2243
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/styles/CloudRestoreSheet.styles.js",
+      "sha256": "cebd62113d3d5660e0fe18bf790ae3e7ee3d42bad215b7a03e86a2b794df9608",
+      "size": 4278
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/backup/styles/WalletBackupStep.styles.js",
+      "sha256": "f789eaf52630a9922e288c62093989c52c9396825b6d2bbdb8275a4d8b4f26f7",
+      "size": 2742
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/balance/components/AnimatedBalanceText.js",
+      "sha256": "85c99194a981ddbc8e63315076beece707e7df572b2b37af886360deb399ce95",
+      "size": 7336
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/balance/components/BalanceGlow.js",
+      "sha256": "e1735c0eca4be12bfb9bcb2ab85794bb0e6780e5bb1a865562fe5fbc2aab5619",
+      "size": 5720
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/balance/components/BalanceHeaderActions.js",
+      "sha256": "2a1dd4d3843ed34c96c1a71082cf0477176e7387c6a2e161e41f63b59c384d0c",
+      "size": 1929
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/balance/components/BalanceRefreshHint.js",
+      "sha256": "f2592861d19f8842214de7d112bc9adb6470cff25fa24ab69719da96b342bcdd",
+      "size": 2530
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/balance/components/BalanceRefreshRipple.js",
+      "sha256": "1e4c20fbbaefbf49c8bb7df1d5c51369bf2d78b21f890ad20dfa4a8d10c37cfd",
+      "size": 1665
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/balance/components/BitcoinPriceCard.js",
+      "sha256": "49f132f432eeefc01b3198d6b92010c7ba4fa193dff24d2602d1d7cf18499e89",
+      "size": 8672
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/balance/hooks/useBalanceRefresh.js",
+      "sha256": "c099c5cd190036d2c38e649a79e0ec36067acbd40f863a7428704daf0d85455f",
+      "size": 6631
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/balance/motion/balanceNumberMotion.js",
+      "sha256": "96ad38371f6ed594d95ee8e7e5e191cbd79ad0d2769dcaf8f32fbc25abdad621",
+      "size": 2419
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/balance/motion/refreshMotion.js",
+      "sha256": "6e7872fec3aff5af5c5ad943333c8240465a103726c7551a280bbcad01fdda70",
+      "size": 2160
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/balance/screens/BalanceScreen.js",
+      "sha256": "4044722a87823a75a232346da94ea79491872fd1da52b53b475deafa216f937b",
+      "size": 14524
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/balance/shaders/balanceRayShader.js",
+      "sha256": "9c67587d287a8f350e94c164d69f8d79f2aca6005714a27f4a6067ec43b8840a",
+      "size": 3172
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/balance/styles/BalanceScreen.styles.js",
+      "sha256": "ec338eb1940e3ede5ea473ae9064b8d916587581bd4cc5c14a8cea1b155dde97",
+      "size": 1984
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/importWallet/components/ImportHeaderMenu.js",
+      "sha256": "434d59021a7246ac57f7f49435ad512edb489055995702bb7488c256b35965af",
+      "size": 4130
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/importWallet/components/PhraseEditor.js",
+      "sha256": "cf8dae2e955d433a8ea537f61c7c6d3dc68e8e94d058537e1a685e55d4910000",
+      "size": 7618
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/importWallet/components/PhraseSuggestions.js",
+      "sha256": "b6438046b75a4f2bdb76ce7740d92ef84179d9769d3cc29d8d8b2869fb6b4763",
+      "size": 2290
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/importWallet/data/recoveryWords.json",
+      "sha256": "531238ede7be78f5fd444b3a4452b023f408f0146aa82bd9fe03aad902b3ff8e",
+      "size": 23359
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/importWallet/domain/nativeImportSession.js",
+      "sha256": "bbc2215c95c2dd8dae5e1b692b88bfcd737f2efe218d68f82e4f28007217384b",
+      "size": 998
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/importWallet/domain/phraseScrollPosition.js",
+      "sha256": "052955207e2bef71dbdfd8a84042bd7ae45d8434ad5af286381af34fcf11bcff",
+      "size": 674
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/importWallet/hooks/useNativePhraseVisibility.js",
+      "sha256": "16d644c837504b4a08c3addf6c97364ca5f4e24186ee13d3c27e43a73281cec7",
+      "size": 2621
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/importWallet/hooks/usePhraseInputVisibility.js",
+      "sha256": "bd9c658af1cb788d2279c7ac5e3f67bb6f62d83be3c170cfe28600c33a1d8b6d",
+      "size": 2459
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/importWallet/screens/ImportWalletScreen.js",
+      "sha256": "9fc60ef4b73f389caa1248c679bc06d4f4008297094b1d0a529b748e9be39dc0",
+      "size": 352
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/importWallet/screens/NativeImportWalletScreen.js",
+      "sha256": "ba9ab563ab0984a5ffbb0a737d8e59e4aabb600d3a64f340deabab98fa929ce6",
+      "size": 10764
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/importWallet/screens/PhraseImportWalletScreen.js",
+      "sha256": "2bae7d5c0611cd1b24bd8f49247b8b7d1732324e856ccace56a9926716972610",
+      "size": 25919
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/importWallet/styles/PhraseImportWalletScreen.styles.js",
+      "sha256": "2d8551332613db6e637e01c9e976f6fd90fec2ecfad475b4831c7c8d50023444",
+      "size": 5154
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/onboarding/components/ImportMethodIcons.js",
+      "sha256": "3f84d6e96f1b49fbc218cb7dc94cc924aa593be65d593663de8915d53a43ddea",
+      "size": 2517
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/onboarding/components/WalletMethodList.js",
+      "sha256": "e56d41f539489f234d151622d43dcb58e017fd342b4b6450d34d291acb2c87ac",
+      "size": 2340
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/onboarding/components/WelcomeBackground.js",
+      "sha256": "a302bb6759444e633a001a742aa6c8c9217f37e31992860e6d0ba3a55fab038e",
+      "size": 2133
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/onboarding/components/WelcomeEntrance.js",
+      "sha256": "dcd50d31d8fd36e8db31ea4c9ab711488a526013ddfe2a9fcf9a798e321e7e1a",
+      "size": 2202
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/onboarding/components/WelcomeIdentity.js",
+      "sha256": "e02c2ba155e2eb6559412824d4f4a4f65b50400ae89684bbaa12bbf4d7d58dd3",
+      "size": 3553
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/onboarding/components/WelcomeOptionCard.js",
+      "sha256": "7b83ff5a6f307fcf9faf39fb059016dc7631912339bf15d348fd1ae2bc1b3dc5",
+      "size": 1577
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/onboarding/components/WelcomeOptionIcons.js",
+      "sha256": "d3024c98bf793418ca8a5f2633bc958a586e149da80ddf3b8dd6b5db23db6dc3",
+      "size": 3614
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/onboarding/components/WelcomeOptions.js",
+      "sha256": "362309b6dd46b1f35b6bab14076becc1020c941cd6db63cf0b291200741e47c8",
+      "size": 1239
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/onboarding/components/WelcomeTerms.js",
+      "sha256": "0428ccd7ee3fe581a99727f866ba2d18c2cecfcea9acd62eb6a610e3ab583922",
+      "size": 777
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/onboarding/screens/OnboardingScreen.js",
+      "sha256": "06824a940f05ce98340167e297dd83b6dc5d4a5a4914a7c4df203559105be56f",
+      "size": 7220
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/onboarding/sheets/ImportWalletSheet.js",
+      "sha256": "0621befb462a732eebc74f8fe13ae63f950a2f6aeaf240ec81b6f9f43c7ce24c",
+      "size": 1451
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/onboarding/theme/welcomeLayout.js",
+      "sha256": "9b02f85d88008b0de88b5025c5d359f93e161262564d7175a35f7efc4b8d902a",
+      "size": 2037
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/receive/components/NewAddressIcon.js",
+      "sha256": "b0d175373b21e944cc5c4a8651b355da60b1235a8124206f5e7db82025a47f14",
+      "size": 679
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/receive/components/ReceiveQr.js",
+      "sha256": "9b1b726d591f6e8816b4ee89c416dffd64dd2095b6298d472269fbf5bf7edef6",
+      "size": 3888
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/receive/hooks/useReceiveSheetPresentation.js",
+      "sha256": "3cd8137c233bfe4d209eaaff9253de840b0eee22dea4422afc6e67e1492398d8",
+      "size": 1092
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/receive/sheets/ReceiveBitcoinSheet.js",
+      "sha256": "404e534d67bb0b5da8d96b07d9291bcab68b6d49b8afdee0a97152846dfb7ecf",
+      "size": 10368
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/receive/steps/ReceiveAddressTypeStep.js",
+      "sha256": "932ccd78b176b70369c9b910f61ebc1c9b8cd5fc96be4e823eb55f4680f3f1de",
+      "size": 4285
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/receive/styles/ReceiveAddressTypeStep.styles.js",
+      "sha256": "2e98ded0c1b106bdcda8824e7305b8adf34b6238d8a9d8634783e9007a28a6ea",
+      "size": 845
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/receive/styles/ReceiveBitcoinSheet.styles.js",
+      "sha256": "75098f8ed66830c4701982ca012fed3f5e38d4d98ae50d4aab15a9666996cf05",
+      "size": 1921
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/security/components/GradientAction.js",
+      "sha256": "a4de354cd34925a4481aa4ce5a2f16456d547c8aa26cd12ff1cab60493096e2e",
+      "size": 2140
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/security/components/PasscodeChrome.js",
+      "sha256": "bc842ae05d12fa62ce69825f4b1b64592f3f602471572e1704fdc0db4b1be19c",
+      "size": 462
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/security/components/PasscodePad.js",
+      "sha256": "72cddd4dea66c24b930b4ff198c945a3b91f3c3bb5f69fa531e0eb1afc7592a6",
+      "size": 7754
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/security/components/SecurityBackground.js",
+      "sha256": "283e7e6a797b88cdb478586bb107de8b3f4d7aaa2d7fb4751786bdf8ee3aea12",
+      "size": 2823
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/security/components/SecurityIllustrations.js",
+      "sha256": "e3ed7c853938610c718f9590c248110c72c22ce5747b1d1ccedd7327774bb9a8",
+      "size": 2551
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/security/modals/DisablingSecurityModal.js",
+      "sha256": "f3cd0736f8061e23cc3e7fb144c106c4826fdf6bd6839fa870c8fe7103fd8395",
+      "size": 8709
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/security/providers/LockProvider.js",
+      "sha256": "f9299ac9d598604a3f016d5b33b1b9608b6880293f78c245f96b0dddb23a02a9",
+      "size": 6817
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/security/screens/CreatePasscodeScreen.js",
+      "sha256": "ff42f501bba13c5b747627b9987d93a6ff73e999a91748e92e81d6199aefe857",
+      "size": 6417
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/security/screens/LockScreen.js",
+      "sha256": "f7a5a86f197539fc2310e6a5993663dcaad6644196e3a552d8986066df4ba5c3",
+      "size": 13949
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/components/AddressCapsule.js",
+      "sha256": "dfabea5ac6046065df49110a874ae7a4d7ecaa0e6225456810579734604c67a5",
+      "size": 1350
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/components/AmountGlyphMetrics.js",
+      "sha256": "e9188ff48e4a5111017cdae42cd6c7dce8c7e57adee24c2eb150c8e1fa906b8f",
+      "size": 1429
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/components/AnimatedAmountDigits.js",
+      "sha256": "144ef52a625f1c3471718f4d73ea5531fdb78f6dfab022d8f3f3357e9f2e92c9",
+      "size": 3590
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/components/FeeRateInput.js",
+      "sha256": "158bbbc9d1ff1d379e8ba85ea6f4c10c113e1803838c0b38ab66b52cda300846",
+      "size": 4397
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/components/NetworkFeeIllustration.js",
+      "sha256": "ae0543bc55af4620528d3dceee60ab3e6bf2e6ebbc125c50a3d06ce5e1336cfe",
+      "size": 2578
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/components/SendGlassWarning.js",
+      "sha256": "9aa2d961529a3976f15872ef6a38c9e80596cd74d76a1d6a5f22a7385ec304ba",
+      "size": 4427
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/components/SendStatusBar.js",
+      "sha256": "061481aa38d8a8d0106ddadafd1e51e829389982d19375c109f1bd7e6631a7d7",
+      "size": 7759
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/components/SlideToConfirm.js",
+      "sha256": "5942562fdc7ce8fa3cfe4be19fc0c511ba4ada97a92f52c60bfb2bd59b735d6b",
+      "size": 6486
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/components/sendCompletionMotion.js",
+      "sha256": "018e8cc890c71447d08ae106faf01f524fdd425fd9d9f31c7e3d8536670fca0e",
+      "size": 435
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/domain/address.js",
+      "sha256": "f14cfef4eddc98a4cfad8a20b26b8a0d017485136c2e636f1836a4d15df29d84",
+      "size": 3642
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/domain/amount.js",
+      "sha256": "3b86b0d1f179a34590614716e22433cb2aeb01caf81d626a1de4194a6d49e741",
+      "size": 3414
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/modals/QrScannerModal.js",
+      "sha256": "a4b8c024f656686d5ea8ae459d7e897db1031cf4cc96c12be80812dd0475e6e4",
+      "size": 5571
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/sheets/SendBitcoinSheet.js",
+      "sha256": "8fc489831432c9c8a56dcbe3e0ec8ea771f723b852c2bd29e12affe21e5a347a",
+      "size": 10194
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/steps/NetworkFeeStep.js",
+      "sha256": "4367fa79af89c00a6519515a84852345108d97d59923f67894b60ee6080ad7be",
+      "size": 12000
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/steps/SendAddressStep.js",
+      "sha256": "0f043547d13ee99499a693bc412ea03c9a332e13682f45f5d80990bffe63080c",
+      "size": 10112
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/steps/SendAmountStep.js",
+      "sha256": "46ebd4307ed1af5a8b44dce81b2e302f13d98810586369cf46cd05e9a9acc8e5",
+      "size": 14909
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/steps/SendReviewStep.js",
+      "sha256": "c5d0d9a72a40ddde70eb7516f759ee55ea5812adc9bcaadb7f3616e6c3c59c9b",
+      "size": 3791
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/styles/NetworkFeeStep.styles.js",
+      "sha256": "5c1221797c62f057ff502bf336ea9833a453bf30ce1a7affc5beb42fd507daaf",
+      "size": 1464
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/styles/SendAddressStep.styles.js",
+      "sha256": "019a52a839aaa27ad64749ff487012ed6b61461286c282d5d9180ae117e893ed",
+      "size": 1926
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/styles/SendAmountStep.styles.js",
+      "sha256": "0292ea89ebb9214f279558ff97ee19c9c3a9b09799866efefd71f7af7622b589",
+      "size": 1916
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/styles/SendStatusBar.styles.js",
+      "sha256": "58776766048c60c4f4b095a4c39f2da91228a5afdb6827a3c12ec05310db3fc5",
+      "size": 1194
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/styles/SlideToConfirm.styles.js",
+      "sha256": "dfd29da3e1bfc0d97b07839a8a13eba1e8d05784be880b43438d363453d4d31b",
+      "size": 1117
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/send/styles/sendFeedback.js",
+      "sha256": "53edaff8ba92f2b638f941b6cab8ddab14dbc18b655795b4bd10d009fa1a3abc",
+      "size": 213
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/components/PreferencePickerModal.js",
+      "sha256": "ae5d722df4b2f735be58915afec7f30f94c020a5dbdb958e4d36c83a3cbb662e",
+      "size": 8540
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/components/PreferenceSwitch.js",
+      "sha256": "6ff88b6738b090927a2a44122e0916087f47d898dc1882b8cdafee7787260e0c",
+      "size": 3846
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/components/ResetAppIcon.js",
+      "sha256": "c094925e30b8df966d8200e1f73fc23346a4135a50677278581445afa3fa7e0c",
+      "size": 1284
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/components/ResetWalletStep.js",
+      "sha256": "16b6d0438a585709c957cab7da28f20fbece6a631e020ebf4dcb5aae8248346f",
+      "size": 1900
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/components/SettingsModal.js",
+      "sha256": "05e444d7be4797a960b30209d654641bd521b9d00b4b7edffe0c9158465a2aa9",
+      "size": 5766
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/components/SettingsRow.js",
+      "sha256": "026da0fb3adabe50a9ff3c1d5f83682bb049c76eabd27fa48b69f15171132b73",
+      "size": 2671
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/components/SettingsSelectionRow.js",
+      "sha256": "43bf3aab28d2bcaa6e4a49f6d2688acba774ab0bb1f5632b84af43993ffd15fe",
+      "size": 4789
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/components/settingsIcons.js",
+      "sha256": "540ff23ea98a759aaaa8941e8156a37f08ae1d5e1c7950eed9ffea126c53e500",
+      "size": 3812
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/data/currencies.json",
+      "sha256": "ed3818d5c64cad944333ba51132e715743fac8aa70b1522e8a2ef577bba395b6",
+      "size": 2198
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/data/languages.json",
+      "sha256": "29010f6b29afaa3f0f5babaa5edba5c0148935ce5c2e7a7335dc2bd26d9db538",
+      "size": 192
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/data/settingsEntries.js",
+      "sha256": "905c64a38b6246d663edcf46ede5dbe2300d66b833dfd329881fb3f9ffd6f1ef",
+      "size": 1231
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/hooks/useBiometricPreference.js",
+      "sha256": "be08e2a2adb5c56a3461cbe2c376009189ce6b8411dc43c93b6f71dd28259ed9",
+      "size": 3698
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/hooks/useNotificationPreference.js",
+      "sha256": "2b1331d40e40814d9277443f164fcf9d9ebe53d2ab7a0713fdaafb3fa0528110",
+      "size": 4872
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/hooks/useResetWalletFlow.js",
+      "sha256": "4c3d412cc8ceec6de4d430514cab9b5782da7bd0ca03919920dd5521409be9e9",
+      "size": 2477
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/hooks/useSoundPreference.js",
+      "sha256": "686af52d499b9d285e7d68bfba1f16df8613c9a6f8312ddfd257f0b3ca073f58",
+      "size": 1603
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/sheets/AppSettingsSheet.js",
+      "sha256": "37db876bd7f55e564de85461f0e08abeb07f52f32403bc18798a4af6c7a95afe",
+      "size": 12961
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/styles/ResetWalletStep.styles.js",
+      "sha256": "7c88172354bbd470531e63e6448f7d41c5f7c2a76630f59447df00ffd16740ac",
+      "size": 1368
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/settings/styles/SettingsPreferences.styles.js",
+      "sha256": "946db1ea7018ceabbff398502b9d8cbad0659ef675fc9a1d1e70641dfe1dbc6a",
+      "size": 4836
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/components/AddressRow.js",
+      "sha256": "923d2aaa97186c4e70dbcd2d0b116fa17de4dcc942127c95d0534ea40a312504",
+      "size": 3950
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/components/AvatarAccessoryGlass.js",
+      "sha256": "2274b5f008ffe1db61da7bffdbb6de000450a9fdc98706b9fda1c5aa643358c8",
+      "size": 4524
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/components/AvatarActionIcon.js",
+      "sha256": "b39a520d136a8141e2d3095e90b73f100f806c04534148254e76aa1187177395",
+      "size": 1160
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/components/AvatarOptionIcon.js",
+      "sha256": "b333aed83fc38a1c46ffc3324295293f8eae0c821caa5b7946ab6bd0ae17cb19",
+      "size": 2605
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/components/WalletAvatar.js",
+      "sha256": "af563fcfb913fba17f25c90063e062be262fbb96cf664ce4dddc7fd353df7ade",
+      "size": 3663
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/components/WalletAvatarOptions.js",
+      "sha256": "b65f136c8bb1107e187cfda4d00d83ec8c010fbe93a026c76c0e427b6c3f6181",
+      "size": 1362
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/components/WalletEmojiPicker.js",
+      "sha256": "a3a610e5cc1d3b1fd530f40dc76d281ec25e78259ad39a72e10a8124e40ec9e4",
+      "size": 2638
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/components/WalletListRow.js",
+      "sha256": "ea315eac608889ebd2b911e29e3f7943ebc63678c65f7b8e2c8e90f1fd9e13e6",
+      "size": 2826
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/components/WalletProfileAvatar.js",
+      "sha256": "1a01ec26f82f85290b73fd48c8d37ac108a7392e09a6a153f8c406c0187776e8",
+      "size": 3628
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/components/WalletProfileName.js",
+      "sha256": "cd272d3e5cd94fe8705d0f1dcf5e5f486e516e2e2a814d0a033cb02c161c012e",
+      "size": 3212
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/components/walletIcons.js",
+      "sha256": "04bb3e89b0cfc0125fb61b6ce3f1ccfef00a10f9f01a9948fd120116364ac0e4",
+      "size": 19307
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/data/walletProfile.js",
+      "sha256": "95f6ddb62810634ec4d5fd953e0adf92978bb012a8413530b19732995989ab91",
+      "size": 3844
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/sheets/AddressActionsSheet.js",
+      "sha256": "bb8e93a77b25309da67da53d601dbea0afbb1bb1bf82837158c2ecc9b267b42c",
+      "size": 3836
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/sheets/ManageWalletsSheet.js",
+      "sha256": "29a2a918e0e7427a48d113f84820b871c93506dea69c3367b95b20e9d4e2a08b",
+      "size": 4467
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/sheets/RemoveWalletSheet.js",
+      "sha256": "93c6294f785f2f6218b8b52824f2246a386bb31d255c603824241b45c83a190a",
+      "size": 5696
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/sheets/SignVerifyMessageSheet.js",
+      "sha256": "b3c8f5a1751c3fc1dc9af73fe25b89c0c21026383eade5510b5f4e86bd098c72",
+      "size": 7693
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/sheets/WalletNameSheet.js",
+      "sha256": "71bad1aaa34a23d833440aa84bff535b293bfb19c3dbd3e0b1670a409364a60b",
+      "size": 10026
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/sheets/WalletSettingsSheet.js",
+      "sha256": "02d0828ae2862690d7529d624e6c4903e37da57af276646332976c5c1bd49565",
+      "size": 23029
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/styles/SignVerifyMessageSheet.styles.js",
+      "sha256": "3925a7eba564255548f2d6ece04668dbd90088e46011f6c167ac7cf5bb7223cf",
+      "size": 1397
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/styles/WalletNameSheet.styles.js",
+      "sha256": "1b0f90f677f33567dbe0b9fd7a2dfcff522191602f4f1b2b7a2ebf425f994a75",
+      "size": 1324
+    },
+    {
+      "mode": "100644",
+      "path": "src/features/wallet/styles/WalletSettingsSheet.styles.js",
+      "sha256": "69aa34415faaac84de5df2da487eef6b5f019005840b4415b610425b131675f0",
+      "size": 2948
+    },
+    {
+      "mode": "100644",
+      "path": "src/i18n/TemplateText.js",
+      "sha256": "b918bbb7c65e6994a0048502667f80315fea9be18977ffdb914707a5a73a4fcf",
+      "size": 653
+    },
+    {
+      "mode": "100644",
+      "path": "src/i18n/core.js",
+      "sha256": "194aa502e6b729328acd7f89aa8dff887870ca1456b7f9f08f64a01b00a9b92c",
+      "size": 2905
+    },
+    {
+      "mode": "100644",
+      "path": "src/i18n/index.js",
+      "sha256": "ee7d92232ed1bc5a0ba620048e42e83cfd7584d4c14cb6d73b2163d1891b832a",
+      "size": 1680
+    },
+    {
+      "mode": "100644",
+      "path": "src/i18n/locales/de.js",
+      "sha256": "d34d3d9487014c102ed40d02ae353784292b4fdc7e21ee9115224a2b5199fd08",
+      "size": 52644
+    },
+    {
+      "mode": "100644",
+      "path": "src/i18n/locales/en.js",
+      "sha256": "ec4ed0f639aff93b93e94cd9b097bf33183db85eae851d2499d93a9cb6b9b822",
+      "size": 47260
+    },
+    {
+      "mode": "100644",
+      "path": "src/i18n/locales/es-419.js",
+      "sha256": "419a40479df2552e0e1fb14713394c7b67ed2b3430e631bffb70d3bde7ea22d1",
+      "size": 51531
+    },
+    {
+      "mode": "100644",
+      "path": "src/i18n/locales/fr.js",
+      "sha256": "bdab2318630b43c21a1f00201cf619bdbe9dfa02aa600b15c817df579f12026f",
+      "size": 53259
+    },
+    {
+      "mode": "100644",
+      "path": "src/i18n/locales/it.js",
+      "sha256": "4e65bfb6421705b6214ce47629d7d9e2456f1b41fa6b6d57c731a6e94353bfa4",
+      "size": 50751
+    },
+    {
+      "mode": "100644",
+      "path": "src/i18n/locales/nl.js",
+      "sha256": "4cd5f7fe2e8e9dd935d60f93c9cd24fa5c50125a4f93b2d39c1a4fceca6a31eb",
+      "size": 50465
+    },
+    {
+      "mode": "100644",
+      "path": "src/i18n/locales/pt.js",
+      "sha256": "5ada215770e0c046477030e2c98e9daf24e61a25edfd47391157eb6fbc01c3d8",
+      "size": 50925
+    },
+    {
+      "mode": "100644",
+      "path": "src/i18n/locales/ru.js",
+      "sha256": "bf168e918c7c740b4fe91e64b37b33f00d8a12845767f630e40be59447a55ee7",
+      "size": 71590
+    },
+    {
+      "mode": "100644",
+      "path": "src/services/feedback.js",
+      "sha256": "32d21a3a08b78cc1d4cb955a187c6c08591525c83d3df0170d94a9bb4b22b52f",
+      "size": 742
+    },
+    {
+      "mode": "100644",
+      "path": "src/services/notificationPermission.js",
+      "sha256": "7cc5c148f1739b95bdbe3b9b7c3f067ae42ea68b2146c477c30f0e01a3055200",
+      "size": 108
+    },
+    {
+      "mode": "100644",
+      "path": "src/services/receiveSound.js",
+      "sha256": "6a93f14b01818b21f4175cf1ca3c2cf94bcc4dee110ee05d41d62e52de4d42eb",
+      "size": 472
+    },
+    {
+      "mode": "100644",
+      "path": "src/services/sound.js",
+      "sha256": "54fbad8492f3e6b1b08226a7ffaa6b986781badb612dff43e3307b2b53f229ba",
+      "size": 648
+    },
+    {
+      "mode": "100644",
+      "path": "src/theme/buttonMetrics.js",
+      "sha256": "6a9beb845c24a8df5aa6c67ebf354439f2796fb0b31a993488500cf40f6d586a",
+      "size": 991
+    },
+    {
+      "mode": "100644",
+      "path": "src/theme/colors.js",
+      "sha256": "32270868844b5ec29e2d50d054c30f19f25329821cc1934a8f01c8c89f794dec",
+      "size": 527
+    },
+    {
+      "mode": "100644",
+      "path": "src/theme/dimensions.js",
+      "sha256": "bb9877be2fbf0a46066afc8c0afc3a07cf8434602464112735b7c9bbfbe66793",
+      "size": 198
+    },
+    {
+      "mode": "100644",
+      "path": "src/theme/fonts.js",
+      "sha256": "37575760b391a9955477be838b2a504fbe69c00167f6decd6a6b97ac082e0536",
+      "size": 337
+    },
+    {
+      "mode": "100644",
+      "path": "src/theme/index.js",
+      "sha256": "ccc3696184f9cbdeaa2ed2c5b1746aba8bc08034acef9cceb32b1dc5bb66c61f",
+      "size": 239
+    },
+    {
+      "mode": "100644",
+      "path": "src/theme/inputTheme.js",
+      "sha256": "f63ebc38d71bb5290d82881e1a517ab631f544f5e5593364498dbaf34e5f652d",
+      "size": 849
+    },
+    {
+      "mode": "100644",
+      "path": "src/theme/navigationMetrics.js",
+      "sha256": "dbf80638e01518132b35d4a5e359af7afcbf94c4b1445e3d979679d1bdd737b9",
+      "size": 191
+    },
+    {
+      "mode": "100644",
+      "path": "src/theme/sheetMetrics.js",
+      "sha256": "54692c67cc65e6320aacd9b50fed0d452bd6b4e0c9df3cbecbd90fe23fbf63f6",
+      "size": 1822
+    },
+    {
+      "mode": "100644",
+      "path": "src/theme/typography.js",
+      "sha256": "aa1a23416599673ded78baa9131513bd6845b030d410b924096cb57dbe1ce9a4",
+      "size": 4387
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/WalletEngine.js",
+      "sha256": "541bbb84306283e96882ef5068f0e0070e6658b402990d228b3cb9f7953e71f1",
+      "size": 9169
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/config/blockExplorers.js",
+      "sha256": "0b7b0245ddc26102f8c4cd9cac2a3a2433ae2e72a42caef92e439d4ed0280fda",
+      "size": 1744
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/config/currencies.js",
+      "sha256": "2e69e4f9dfeda6f3fa68e7f4cde59086cfd81e2f963b9681a271f4142cdc4d49",
+      "size": 701
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/config/preferences.js",
+      "sha256": "7e658f030e52d6cf8856970887dc5535c395829121319f2748d99d190cfc80a9",
+      "size": 218
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/domain/avatarPhoto.js",
+      "sha256": "7933045b7aa017b89485eb5c3c8bdb87ea2a908ad7aa018d71d4924a7773c8a1",
+      "size": 2406
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/domain/incomingActivity.js",
+      "sha256": "62bbc5752f6b6a12ae59c96305fe64e8afa56169386ac17dac7a85df3d748e9c",
+      "size": 793
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/domain/keys.js",
+      "sha256": "131bbc3f4dc1510d15053250702884e34aafae660b8535422883ebe63c3e9dab",
+      "size": 530
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/domain/keys/addressDerivation.js",
+      "sha256": "3b2697a6a369733d350251c1913d4761d81866ac7d5978be0ab47b0533c36cc0",
+      "size": 5721
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/domain/keys/descriptors.js",
+      "sha256": "93a0090c1ad37921daeda2a73e449978ad7c876a1aaccbc1544e326a0f2b5888",
+      "size": 7558
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/domain/keys/keyFormats.js",
+      "sha256": "c4c592b771973ed11d546d718af3150a224b462edc009283ae9fb96ae4f6cbdf",
+      "size": 4025
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/domain/keys/recoveryMaterial.js",
+      "sha256": "4ab51f9378d3ad8a474ff777fbccae7ec9838e527abbbe0d8dbf1ae016b282c8",
+      "size": 5911
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/domain/messageSignature.js",
+      "sha256": "351d754f42c26e5b7cb9c5303fff5189669554bdda67e1c4893d519fb8d67f57",
+      "size": 3351
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/domain/paymentPlan.js",
+      "sha256": "f4fbd5dde56164b1cd09fe829695a424510d9f7d7e96c3c8b6601edd0997a312",
+      "size": 16051
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/domain/replacement.js",
+      "sha256": "169b52fe8e9754b557063edddb48fd818b54f40f2ff528a8ba3c0fb2d24ba249",
+      "size": 7356
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/domain/snapshot.js",
+      "sha256": "12d78f0515841ce6a54e32fe87f28e6378aee8cbcdffdc4bf87c119a335cbe57",
+      "size": 461
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/network/charts.js",
+      "sha256": "e5a01b66eb07bead414c3b13915e7329c51c89706f9a9539974769e09a5a9384",
+      "size": 6156
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/network/electrum.js",
+      "sha256": "5ed704afba7a9488d749e0fbfede440796a3f8d4ec5e76805c918f9d856a374b",
+      "size": 14204
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/network/fees.js",
+      "sha256": "c4889d39e5a445bae3d0b6856211632ae0d136eab7d998e35ad89054fab4ef61",
+      "size": 6129
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/network/rates.js",
+      "sha256": "e9e02b0cf837011239975fc65478d4977a8bbecf73f749d263d5bea0d9302a4b",
+      "size": 6047
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/platform/cloudBackup.js",
+      "sha256": "4105e4c0cb91399e5c9d39ae59668f11f33817de73186894669c062662c9ee2f",
+      "size": 4509
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/platform/cloudBackupError.js",
+      "sha256": "4936c5bb19fc995f77a348b07162493d02c58dbfdfc9d00ffdd09cc38bbaba0d",
+      "size": 828
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/platform/nativeWallet.js",
+      "sha256": "c2ea1ab9124ad5421cd1b05020669a378c41f18b31bbd7435d5e13e94c1d661c",
+      "size": 2678
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/services/WalletAccounts.js",
+      "sha256": "ddba5eeddee6f99fd4ed1b22dfbfc5599564b145b371aef1cb4f2e477d22e46e",
+      "size": 9890
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/services/WalletAddresses.js",
+      "sha256": "d25ed5e3c7bd7e0049fee2b7f430719a30c0101ac9913f6c3773282d60851e95",
+      "size": 1249
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/services/WalletElectrum.js",
+      "sha256": "ee0e87a9c00c953e16a78ced4b1112ee9638a18d1c2f53ec0990de198b08d4a4",
+      "size": 1227
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/services/WalletMarketData.js",
+      "sha256": "d0a3c608fa2a6bc66294fe146f6b793e6a69310c227b7432b405b4b98f567bfa",
+      "size": 4102
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/services/WalletMessages.js",
+      "sha256": "91ec470a374c1ac44a6eeabe6689f1ed48f75d21596b2a6740146e1edffba38e",
+      "size": 1533
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/services/WalletPayments.js",
+      "sha256": "d259f0e4b87226d55bcc67f365601161528f20f686a71d3379d3c6de0d1442f3",
+      "size": 10907
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/services/WalletPreferences.js",
+      "sha256": "ed2b1ce1ccdaa2efb111a853a9e48c20cec3211851bd0928277a91501b877c0a",
+      "size": 3319
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/services/WalletRecovery.js",
+      "sha256": "f44a362610b53125df9e4736c37fc90596971bf3e0a7f2cff473b5b62ba8209a",
+      "size": 2088
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/services/WalletSecurity.js",
+      "sha256": "f56c5d22773b5c0e4db4f49a95d7c25bbd53439991eb0e2e6886e570704266fb",
+      "size": 5646
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/services/WalletStorage.js",
+      "sha256": "c78f31c66809d2242b4cf24a1ab0c6fdca0279fa0f2704a21b22b40c8797be2d",
+      "size": 5946
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/services/WalletSynchronization.js",
+      "sha256": "c7e71e31d4bbd3841d1668dc66edf169b85919e3b9f3780d29e984263855ef70",
+      "size": 7934
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/services/cloudBackupPayload.js",
+      "sha256": "0c694c534071573c6979cc2bf3109fc76c6d6963a3fae26539eda5433bbecd96",
+      "size": 3496
+    },
+    {
+      "mode": "100644",
+      "path": "src/wallet/synchronization/scanWallet.js",
+      "sha256": "ad9455d1671d9c3b26d7f45ffc12f54b750c69af53b39ca0d14dfece49e40f7c",
+      "size": 11322
+    }
+  ],
+  "git": null,
+  "kind": "source",
+  "limitations": {
+    "app_store_equivalence": "Not established; Apple processing changes distributed artifacts.",
+    "dependencies": "Lockfile hashes identify declared inputs, not all installed dependency bytes.",
+    "native_reproducibility": "Not established by this manifest; executable hashes still include signing data.",
+    "source_claim": "Content fingerprint; not a trusted build attestation."
+  },
+  "lockfiles": [
+    {
+      "mode": "100644",
+      "path": "Gemfile.lock",
+      "sha256": "edd98707c2dcd7128b5c915252d47c0fb6eaa94ffc4fda0fb924d0366cc08153",
+      "size": 2452
+    },
+    {
+      "mode": "100644",
+      "path": "ios/Podfile.lock",
+      "sha256": "37a688842eebfbfa659d3a4c786f8599d3c6ab7555e5b4228c7352ec81413ae7",
+      "size": 76824
+    },
+    {
+      "mode": "100644",
+      "path": "package-lock.json",
+      "sha256": "7ccd71c80222e876f063d7ccb03b2d682e866b006621608d2b0a35b828e12d48",
+      "size": 407635
+    }
+  ],
+  "schema": "bithold.release.v1",
+  "sourceRoot": "8a68ea1a030bcc5f9bcfe2a8ee0f087d61bdc08ce4fc824fb3f9f103f7521bf2"
+}

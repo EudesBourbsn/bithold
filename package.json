@@ -1,0 +1,57 @@
+{
+  "name": "bithold",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "postinstall": "patch-package",
+    "ios:device": "python3 scripts/install_ios.py",
+    "icons": "swift scripts/generate_app_icons.swift",
+    "ios:archive": "python3 scripts/archive_ios.py",
+    "release:source": "python3 scripts/release_manifest.py source",
+    "release:verify": "python3 scripts/verify_ios_bundle.py"
+  },
+  "dependencies": {
+    "@gorhom/bottom-sheet": "5.2.14",
+    "@noble/curves": "2.4.0",
+    "@noble/hashes": "2.4.0",
+    "@react-native-menu/menu": "2.0.0",
+    "@react-navigation/native": "7.5.1",
+    "@react-navigation/native-stack": "7.21.0",
+    "@scure/base": "2.2.0",
+    "@scure/bip32": "2.4.0",
+    "@scure/bip39": "2.4.0",
+    "@scure/btc-signer": "2.4.1",
+    "@shopify/react-native-skia": "2.14.0",
+    "fast-text-encoding": "1.0.6",
+    "qrcode-generator": "2.0.4",
+    "react": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-gesture-handler": "3.4.0",
+    "react-native-reanimated": "4.7.1",
+    "react-native-safe-area-context": "^5.5.2",
+    "react-native-screens": "4.30.0",
+    "react-native-svg": "15.16.0",
+    "react-native-worklets": "0.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "20.2.0",
+    "@react-native-community/cli-platform-android": "20.2.0",
+    "@react-native-community/cli-platform-ios": "20.2.0",
+    "@react-native/babel-preset": "0.88.1",
+    "@react-native/eslint-config": "0.88.1",
+    "@react-native/metro-config": "0.88.1",
+    "eslint": "^8.19.0",
+    "patch-package": "8.0.1",
+    "prettier": "2.8.8"
+  },
+  "engines": {
+    "node": ">= 22.11.0"
+  }
+}

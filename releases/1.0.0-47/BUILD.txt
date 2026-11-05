@@ -1,0 +1,93 @@
+BITHOLD 1.0.0 — BUILD 47
+
+Release status
+The Release archive builds and its code signature passes local validation.
+The app has not been uploaded or submitted. App Store distribution export is
+blocked by missing Xcode account/distribution signing credentials for this team.
+Privacy/terms and App Store declarations remain for the owner to complete.
+
+What was actually compared
+1. The exact 400-file first-party source snapshot is in source.zip.
+2. Source fingerprints were unchanged before and after the Release archive.
+3. Dependencies were installed with npm ci --offline in an independent extraction
+   of that snapshot, including the declared postinstall patch.
+4. Two Metro/Hermes rebuilds with separate caches produced identical JavaScript
+   and bytecode. Both bytecode files match the archived main.jsbundle exactly.
+5. All 55 generated assets also match the archived app assets.
+6. ESLint completed with zero errors and zero warnings for application source.
+
+Limits
+This establishes JavaScript/Hermes reproducibility for the recorded toolchain,
+not reproducibility of the complete native iOS executable. There is no trusted
+CI attestation or public Git commit attached yet. BuildInfo.json is a declared
+source fingerprint, not an independent proof of its own authenticity.
+The native executable hash includes its embedded signing data. Signature files
+and provisioning profiles are excluded from the bundle file inventory.
+Apple processes the uploaded app (including thinning, DRM, recompression).
+A full IPA hash therefore does not establish App Store/source equivalence.
+https://developer.apple.com/help/app-store-connect/manage-builds/view-builds-and-metadata/
+
+Inputs
+Node 24.21.0; React Native 0.88.1; CocoaPods 1.17.0; Xcode 27.2 (27B52);
+iOS SDK 27.2; Ruby 2.6.10/Bundler 2.4.22 used for the recorded CocoaPods lock.
+package-lock.json, Gemfile.lock, and ios/Podfile.lock pin dependency resolutions.
+The standard Android debug keystore is a public development fixture, not an iOS
+signing key. Android is not included in this release-readiness claim.
+
+Recompute the source fingerprint
+Extract source.zip preserving executable permissions. From its root:
+  python3 scripts/release_manifest.py source --output /outside/project/source.json
+Compare sourceRoot and file records with the supplied source.json.
+The scripts themselves are part of the source fingerprint.
+
+Install the recorded dependencies
+  npm ci
+  bundle install
+  cd ios
+  bundle exec pod install --deployment
+  cd ..
+Use the recorded tool versions. Keep private signing material outside source.
+
+Create a new local archive with source provenance
+  python3 scripts/archive_ios.py --output /outside/project/release \
+    --archive /outside/project/Bithold.xcarchive
+Add --allow-provisioning-updates only when account access is available.
+This command builds locally and never uploads. BuildInfo.json is embedded before
+code signing. No phone identifier is saved in source or required for archiving.
+
+Compare the JavaScript payload
+After building, from the same source tree (or an exact extracted snapshot after
+npm ci), run:
+  python3 scripts/verify_ios_bundle.py \
+    --archive /outside/project/Bithold.xcarchive \
+    --output /outside/project/new-comparison
+The output directory must not already exist. Success is reported only when both
+rebuilds and the archive match, with source/tool/archive stability checks.
+
+Organized source layout
+assets/
+  branding/ fonts/ icons/ illustrations/ sounds/ wallet/avatars/
+src/
+  components/       Shared controls, icons, sheets and feedback
+  features/
+    activity/ backup/ balance/ importWallet/ onboarding/
+    receive/ security/ send/ settings/ wallet/
+  i18n/              Translated app text
+  services/          Shared integrations and platform services
+  theme/             Shared styles and colors
+  wallet/            Wallet domain and service logic
+  app/               App composition and navigation
+scripts/             Local build, icon generation, provenance and comparison
+                      (no experiments or device registry)
+ios/                 Native iOS modules, app resources and project
+android/             Android source (separate from this iOS release)
+
+No design changes were made by the cleanup/release tooling work.
+Required third-party notices and actual runtime protocol/provider references
+remain; obsolete design-reference comments and unused assets were removed.
+
+SOURCE SHA-256
+8a68ea1a030bcc5f9bcfe2a8ee0f087d61bdc08ce4fc824fb3f9f103f7521bf2
+
+ARCHIVED JAVASCRIPT SHA-256
+f8606138b73da3425fafa2d72aeb9b2bdc700571d2615138fbe95c42e6dae29c

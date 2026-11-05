@@ -1,0 +1,4 @@
+/* Brazilian Portuguese permission texts, translated from Info.plist. */
+NSCameraUsageDescription = "Para escanear códigos QR de endereços Bitcoin.";
+NSFaceIDUsageDescription = "O Bithold usa o Face ID para desbloquear o app.";
+NSPhotoLibraryAddUsageDescription = "Para salvar seu código QR de Bitcoin em Fotos.";

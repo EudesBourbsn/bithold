@@ -1,0 +1,4 @@
+/* Dutch permission texts for Bithold. */
+NSCameraUsageDescription = "Scan QR-codes van Bitcoin-adressen.";
+NSFaceIDUsageDescription = "Bithold gebruikt Face ID om de app te ontgrendelen.";
+NSPhotoLibraryAddUsageDescription = "Bewaar je Bitcoin-QR-code in Foto’s.";

@@ -1,0 +1,692 @@
+{
+  "archiveJavaScriptSha256": "f8606138b73da3425fafa2d72aeb9b2bdc700571d2615138fbe95c42e6dae29c",
+  "archiveMatches": true,
+  "archiveUnchanged": true,
+  "assetsMatch": true,
+  "bytecodeMatches": true,
+  "compilerSha256": "692d632cd4093b5225ed9194de0c223a9129b1f852515a0d86907e834c57950e",
+  "javascriptMatches": true,
+  "limitations": "Does not establish native binary reproducibility, trusted build provenance, or App Store equivalence.",
+  "nodeSha256": "e4b5a3af0e05c75de2eae013904145f40fe7fc2a6e6f17510128bf45cca4e79b",
+  "reactNativeVersion": "0.88.1",
+  "runs": [
+    {
+      "assets": [
+        {
+          "mode": "100644",
+          "path": "assets/assets/icons/bitcoin-mark.png",
+          "sha256": "d596cf8398907eb49bf6a592df115ee48ffdfae0fc4db23eb4aa05f6996459a3",
+          "size": 31621
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/icons/bitcoin.png",
+          "sha256": "d596cf8398907eb49bf6a592df115ee48ffdfae0fc4db23eb4aa05f6996459a3",
+          "size": 31621
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/illustrations/status/icon-plate.png",
+          "sha256": "162d4eb0fcda19dcf188a05b7949223e23b8aa2acf6e5962cf6106a0f3d006ad",
+          "size": 260232
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/illustrations/wallet-removal/success.png",
+          "sha256": "a08764aed19f7d27fc139c68590feb19a6f199c3a34d313c2fe2a3e8b85367f6",
+          "size": 4853
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/illustrations/wallet-removal/warning.png",
+          "sha256": "ed4a49129392ff6dbb4868d12cf147eedb077f74e0912b5e1074a2ee38cc6b5a",
+          "size": 84766
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/sounds/receive.wav",
+          "sha256": "9da01be245a71ba5c9e3706c11664618af717092876404947810a11c1710a3fa",
+          "size": 79584
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/sounds/send.wav",
+          "sha256": "bf3531bda0f0047d59251a49d08aaa25c44635bc57e6dc597c571eeffa03f1c1",
+          "size": 330078
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-01.png",
+          "sha256": "2c32878c4b6ca8bf4955e421af6b7cd62357a06e090f63ded9aba3bbe2502c7c",
+          "size": 1119
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-02.png",
+          "sha256": "a23ea38349e903582c0b76a27d50d779a18d12e2cfb66829bdd047d1035d28d8",
+          "size": 1378
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-03.png",
+          "sha256": "e5deafa45d478ed2d623d6d471404de6139e4b2bdac2451adf583519c2b13c19",
+          "size": 1142
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-04.png",
+          "sha256": "08cd099c1f596855a3db1362bece0331f4d07ae945327336a7aca14f82daf637",
+          "size": 3067
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-05.png",
+          "sha256": "7f1999eb17bd3251d674c5ef16fd13bc4e1aa749e1ad822f09f22f3fda4fe1a4",
+          "size": 1515
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-06.png",
+          "sha256": "6fd44e19da96a940251ac3395514d458c781d7fbff7d471f09160af88eec00e9",
+          "size": 692
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-07.png",
+          "sha256": "3aab2fee5fbd2e550788784b27036e674bf03b2ea691492b8d14d22417d498ea",
+          "size": 1016
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-08.png",
+          "sha256": "ee06dcef37322a79822a3c85f4dcdda2b4b0998b61fa522f231da0baf62bb478",
+          "size": 2876
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-09.png",
+          "sha256": "12b28f326ad33f02e6c439676d8ba2ce4209d76cbbb38eeec8106847eba1584e",
+          "size": 1556
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-10.png",
+          "sha256": "7cd1fd5251b5b50ca973b97118571c94327979e977feca23b98bae3ba535837f",
+          "size": 1550
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-11.png",
+          "sha256": "26cd79647be4c5342801e7154093a5f6bc94b5bea410c3086d8ba3c125dc9c43",
+          "size": 1534
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-12.png",
+          "sha256": "c19b0aeda88faa818accd15a5bebe31833fa8ecc01970db5d889b4d5a6cbdb41",
+          "size": 1893
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-13.png",
+          "sha256": "311e03e4bdd4bb3d4fc57d8ed2efc24d34204006c76ad36adf3e57fe07d7d1a6",
+          "size": 1861
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-14.png",
+          "sha256": "5d5e80425010307983255c9f272754e359c2dd32fc0cc6e369b2a653f16a6b20",
+          "size": 1532
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-15.png",
+          "sha256": "b993d65e3890a8aacc3a3ddc39e95b47239d5d6561dfca8c9a9b2c9fc105d3eb",
+          "size": 2842
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-16.png",
+          "sha256": "572f13d4216878a0212a5445609dc703c4b6c86b7511e0305a94183067c76cf9",
+          "size": 2899
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-17.png",
+          "sha256": "49d36367e1f6ba5e3f077636b68b558615a5dc4adeb9dfdfa38a431b8b28a5f9",
+          "size": 2955
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-18.png",
+          "sha256": "dbfe074b33c36c7f4a079b5989477cf55196f0b13c0be9d11744c302911d1d29",
+          "size": 2769
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-19.png",
+          "sha256": "8b6a19c34b9981b0db7e275d30be77d2d4232b5e2b06f3721882603f0c9f7523",
+          "size": 2120
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-20.png",
+          "sha256": "cb0d1d5f8251cc568daef74d630fc0404bf4abe8d6b281d27e47501f44df5787",
+          "size": 2503
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-21.png",
+          "sha256": "f6db4bbae2733b8c27b9af267cdc869424bd515cd5b28843878742ddccdbea4c",
+          "size": 2232
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-22.png",
+          "sha256": "07aa6d3c6448ac98394a6030c15ab3b20615bf06c81be058f57fb7b35e404bca",
+          "size": 2859
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-23.png",
+          "sha256": "068acc35b29ed900493e7384441a3d7ab8b513668e701c47cfd2d67b45dfc6b8",
+          "size": 2375
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-24.png",
+          "sha256": "b85bbf74ff8d002bc62a21b6a03e5cc5ad11d17a3d6f64cf2feede4d29ffcd8c",
+          "size": 2240
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-25.png",
+          "sha256": "d7d1d59611b931143d422caa7363497ec260318bdff321a68131f1fe5b0b8738",
+          "size": 2399
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-26.png",
+          "sha256": "58f3e979e1fc87c225e6289c974706710cd7de400523854a18b3621d4891e2ee",
+          "size": 3270
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-27.png",
+          "sha256": "e615d9744ce343a7fed6c531de51be68b60854807ad3cc203a3cfe56d20c5960",
+          "size": 2410
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-28.png",
+          "sha256": "6518c288bac210cd1731c733f817e1641562c2f23420cfcd66e2dd3166cff6ef",
+          "size": 2482
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-29.png",
+          "sha256": "973251bbd002d07ad9313f94a7466faf8f4db461a8c8081fd3306a0f2d080e04",
+          "size": 2401
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-30.png",
+          "sha256": "90b46d3b1f73319c363b5c14b5cd0b9c6103f3e77660769e38869e42b20cb202",
+          "size": 2378
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-31.png",
+          "sha256": "07024c89cb76ef0a3a2ab74abf58a0a9bbd04d07db1cc4ddc59c423730fd9bb7",
+          "size": 2363
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-32.png",
+          "sha256": "068ba3bfbbadf11c363d115701681d7723890ebf1d599f04ce73cf02a97fbc5a",
+          "size": 3068
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-33.png",
+          "sha256": "84df475845f31b59820c0a5e83c36f8b81fbf421abfcf4c3d09a663e9f13f2b4",
+          "size": 3077
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-34.png",
+          "sha256": "ca91e6c76f423f4eb24f1647f820d81681ce3f206300cc890ae3fe39a2a3909a",
+          "size": 2838
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-35.png",
+          "sha256": "ebb3334fe75045b341f8501f51cd554c2afd8bcae12e4958166178a916fbbe0e",
+          "size": 2828
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon-mask.png",
+          "sha256": "9adb8c5efca932e2b732b293da813bd2e31952263056bce9e2517fec0f0b6a76",
+          "size": 653
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon.png",
+          "sha256": "2cdfeb8e5ccde7976f7012fb8cce73af2229029ee21d4f1509fed114871c6cd8",
+          "size": 290
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon@2x.png",
+          "sha256": "2b7443a9a58e92ca11a575bdc11598615a57dde305cd8ce70d602606b302cd98",
+          "size": 405
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon@3x.png",
+          "sha256": "3ddd0773ed27e23d25789f301731b3ac455ad8be5aa27a0a1b838f89c6d27225",
+          "size": 761
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon.png",
+          "sha256": "d03a5cd7a66ef10c5147916f9d5878b2d0a0a5ad46f405a31cd9967efaa55afd",
+          "size": 220
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@2x.png",
+          "sha256": "ab5613d2ce70fa67c5926e831353664945199fc195fa6fe76c5fe3cec452e31a",
+          "size": 334
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@3x.png",
+          "sha256": "c4e54e6a0a7de636aa153378fbc62ea4a41695bfedf807f90df7b18ffd733f67",
+          "size": 502
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon.png",
+          "sha256": "b1bc1810ca23e2c38cd76971c43591d726161061240d8b792b05757196ddb528",
+          "size": 141
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon@2x.png",
+          "sha256": "cbdf9213e55f65c48d076acd8423b7c9aee4f1b81101ff6c95a38c4cd8a86461",
+          "size": 201
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon@3x.png",
+          "sha256": "d05c9d30d79f45a78e5585a2e7ec67c6a06a883dd9137e1d5059e8c87b33ce76",
+          "size": 266
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon.png",
+          "sha256": "dc56b976bd45638e1125f6689743525e6886ae0bef2c8f4651994833685a831f",
+          "size": 317
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon@2x.png",
+          "sha256": "ef13fc0dfc52ec23817585fd7e109fbdf593a3b2549c40ce71ac9b0eda12cc2c",
+          "size": 589
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon@3x.png",
+          "sha256": "b434a7cf18c2d4ce747c70942ea2fee2d4412d93967ed92b372f810bb9261ea5",
+          "size": 839
+        }
+      ],
+      "bytecodeSha256": "f8606138b73da3425fafa2d72aeb9b2bdc700571d2615138fbe95c42e6dae29c",
+      "javascriptSha256": "c137af5d2d3a39bc37119b167de3eb4e2e5ee9d4611c429d27ce28152c409ff6"
+    },
+    {
+      "assets": [
+        {
+          "mode": "100644",
+          "path": "assets/assets/icons/bitcoin-mark.png",
+          "sha256": "d596cf8398907eb49bf6a592df115ee48ffdfae0fc4db23eb4aa05f6996459a3",
+          "size": 31621
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/icons/bitcoin.png",
+          "sha256": "d596cf8398907eb49bf6a592df115ee48ffdfae0fc4db23eb4aa05f6996459a3",
+          "size": 31621
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/illustrations/status/icon-plate.png",
+          "sha256": "162d4eb0fcda19dcf188a05b7949223e23b8aa2acf6e5962cf6106a0f3d006ad",
+          "size": 260232
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/illustrations/wallet-removal/success.png",
+          "sha256": "a08764aed19f7d27fc139c68590feb19a6f199c3a34d313c2fe2a3e8b85367f6",
+          "size": 4853
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/illustrations/wallet-removal/warning.png",
+          "sha256": "ed4a49129392ff6dbb4868d12cf147eedb077f74e0912b5e1074a2ee38cc6b5a",
+          "size": 84766
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/sounds/receive.wav",
+          "sha256": "9da01be245a71ba5c9e3706c11664618af717092876404947810a11c1710a3fa",
+          "size": 79584
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/sounds/send.wav",
+          "sha256": "bf3531bda0f0047d59251a49d08aaa25c44635bc57e6dc597c571eeffa03f1c1",
+          "size": 330078
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-01.png",
+          "sha256": "2c32878c4b6ca8bf4955e421af6b7cd62357a06e090f63ded9aba3bbe2502c7c",
+          "size": 1119
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-02.png",
+          "sha256": "a23ea38349e903582c0b76a27d50d779a18d12e2cfb66829bdd047d1035d28d8",
+          "size": 1378
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-03.png",
+          "sha256": "e5deafa45d478ed2d623d6d471404de6139e4b2bdac2451adf583519c2b13c19",
+          "size": 1142
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-04.png",
+          "sha256": "08cd099c1f596855a3db1362bece0331f4d07ae945327336a7aca14f82daf637",
+          "size": 3067
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-05.png",
+          "sha256": "7f1999eb17bd3251d674c5ef16fd13bc4e1aa749e1ad822f09f22f3fda4fe1a4",
+          "size": 1515
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-06.png",
+          "sha256": "6fd44e19da96a940251ac3395514d458c781d7fbff7d471f09160af88eec00e9",
+          "size": 692
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-07.png",
+          "sha256": "3aab2fee5fbd2e550788784b27036e674bf03b2ea691492b8d14d22417d498ea",
+          "size": 1016
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-08.png",
+          "sha256": "ee06dcef37322a79822a3c85f4dcdda2b4b0998b61fa522f231da0baf62bb478",
+          "size": 2876
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-09.png",
+          "sha256": "12b28f326ad33f02e6c439676d8ba2ce4209d76cbbb38eeec8106847eba1584e",
+          "size": 1556
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-10.png",
+          "sha256": "7cd1fd5251b5b50ca973b97118571c94327979e977feca23b98bae3ba535837f",
+          "size": 1550
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-11.png",
+          "sha256": "26cd79647be4c5342801e7154093a5f6bc94b5bea410c3086d8ba3c125dc9c43",
+          "size": 1534
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-12.png",
+          "sha256": "c19b0aeda88faa818accd15a5bebe31833fa8ecc01970db5d889b4d5a6cbdb41",
+          "size": 1893
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-13.png",
+          "sha256": "311e03e4bdd4bb3d4fc57d8ed2efc24d34204006c76ad36adf3e57fe07d7d1a6",
+          "size": 1861
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-14.png",
+          "sha256": "5d5e80425010307983255c9f272754e359c2dd32fc0cc6e369b2a653f16a6b20",
+          "size": 1532
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-15.png",
+          "sha256": "b993d65e3890a8aacc3a3ddc39e95b47239d5d6561dfca8c9a9b2c9fc105d3eb",
+          "size": 2842
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-16.png",
+          "sha256": "572f13d4216878a0212a5445609dc703c4b6c86b7511e0305a94183067c76cf9",
+          "size": 2899
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-17.png",
+          "sha256": "49d36367e1f6ba5e3f077636b68b558615a5dc4adeb9dfdfa38a431b8b28a5f9",
+          "size": 2955
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-18.png",
+          "sha256": "dbfe074b33c36c7f4a079b5989477cf55196f0b13c0be9d11744c302911d1d29",
+          "size": 2769
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-19.png",
+          "sha256": "8b6a19c34b9981b0db7e275d30be77d2d4232b5e2b06f3721882603f0c9f7523",
+          "size": 2120
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-20.png",
+          "sha256": "cb0d1d5f8251cc568daef74d630fc0404bf4abe8d6b281d27e47501f44df5787",
+          "size": 2503
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-21.png",
+          "sha256": "f6db4bbae2733b8c27b9af267cdc869424bd515cd5b28843878742ddccdbea4c",
+          "size": 2232
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-22.png",
+          "sha256": "07aa6d3c6448ac98394a6030c15ab3b20615bf06c81be058f57fb7b35e404bca",
+          "size": 2859
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-23.png",
+          "sha256": "068acc35b29ed900493e7384441a3d7ab8b513668e701c47cfd2d67b45dfc6b8",
+          "size": 2375
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-24.png",
+          "sha256": "b85bbf74ff8d002bc62a21b6a03e5cc5ad11d17a3d6f64cf2feede4d29ffcd8c",
+          "size": 2240
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-25.png",
+          "sha256": "d7d1d59611b931143d422caa7363497ec260318bdff321a68131f1fe5b0b8738",
+          "size": 2399
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-26.png",
+          "sha256": "58f3e979e1fc87c225e6289c974706710cd7de400523854a18b3621d4891e2ee",
+          "size": 3270
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-27.png",
+          "sha256": "e615d9744ce343a7fed6c531de51be68b60854807ad3cc203a3cfe56d20c5960",
+          "size": 2410
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-28.png",
+          "sha256": "6518c288bac210cd1731c733f817e1641562c2f23420cfcd66e2dd3166cff6ef",
+          "size": 2482
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-29.png",
+          "sha256": "973251bbd002d07ad9313f94a7466faf8f4db461a8c8081fd3306a0f2d080e04",
+          "size": 2401
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-30.png",
+          "sha256": "90b46d3b1f73319c363b5c14b5cd0b9c6103f3e77660769e38869e42b20cb202",
+          "size": 2378
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-31.png",
+          "sha256": "07024c89cb76ef0a3a2ab74abf58a0a9bbd04d07db1cc4ddc59c423730fd9bb7",
+          "size": 2363
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-32.png",
+          "sha256": "068ba3bfbbadf11c363d115701681d7723890ebf1d599f04ce73cf02a97fbc5a",
+          "size": 3068
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-33.png",
+          "sha256": "84df475845f31b59820c0a5e83c36f8b81fbf421abfcf4c3d09a663e9f13f2b4",
+          "size": 3077
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-34.png",
+          "sha256": "ca91e6c76f423f4eb24f1647f820d81681ce3f206300cc890ae3fe39a2a3909a",
+          "size": 2838
+        },
+        {
+          "mode": "100644",
+          "path": "assets/assets/wallet/avatars/avatar-35.png",
+          "sha256": "ebb3334fe75045b341f8501f51cd554c2afd8bcae12e4958166178a916fbbe0e",
+          "size": 2828
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon-mask.png",
+          "sha256": "9adb8c5efca932e2b732b293da813bd2e31952263056bce9e2517fec0f0b6a76",
+          "size": 653
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon.png",
+          "sha256": "2cdfeb8e5ccde7976f7012fb8cce73af2229029ee21d4f1509fed114871c6cd8",
+          "size": 290
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon@2x.png",
+          "sha256": "2b7443a9a58e92ca11a575bdc11598615a57dde305cd8ce70d602606b302cd98",
+          "size": 405
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/back-icon@3x.png",
+          "sha256": "3ddd0773ed27e23d25789f301731b3ac455ad8be5aa27a0a1b838f89c6d27225",
+          "size": 761
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon.png",
+          "sha256": "d03a5cd7a66ef10c5147916f9d5878b2d0a0a5ad46f405a31cd9967efaa55afd",
+          "size": 220
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@2x.png",
+          "sha256": "ab5613d2ce70fa67c5926e831353664945199fc195fa6fe76c5fe3cec452e31a",
+          "size": 334
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/clear-icon@3x.png",
+          "sha256": "c4e54e6a0a7de636aa153378fbc62ea4a41695bfedf807f90df7b18ffd733f67",
+          "size": 502
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon.png",
+          "sha256": "b1bc1810ca23e2c38cd76971c43591d726161061240d8b792b05757196ddb528",
+          "size": 141
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon@2x.png",
+          "sha256": "cbdf9213e55f65c48d076acd8423b7c9aee4f1b81101ff6c95a38c4cd8a86461",
+          "size": 201
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/close-icon@3x.png",
+          "sha256": "d05c9d30d79f45a78e5585a2e7ec67c6a06a883dd9137e1d5059e8c87b33ce76",
+          "size": 266
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon.png",
+          "sha256": "dc56b976bd45638e1125f6689743525e6886ae0bef2c8f4651994833685a831f",
+          "size": 317
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon@2x.png",
+          "sha256": "ef13fc0dfc52ec23817585fd7e109fbdf593a3b2549c40ce71ac9b0eda12cc2c",
+          "size": 589
+        },
+        {
+          "mode": "100644",
+          "path": "assets/node_modules/@react-navigation/elements/lib/module/assets/search-icon@3x.png",
+          "sha256": "b434a7cf18c2d4ce747c70942ea2fee2d4412d93967ed92b372f810bb9261ea5",
+          "size": 839
+        }
+      ],
+      "bytecodeSha256": "f8606138b73da3425fafa2d72aeb9b2bdc700571d2615138fbe95c42e6dae29c",
+      "javascriptSha256": "c137af5d2d3a39bc37119b167de3eb4e2e5ee9d4611c429d27ce28152c409ff6"
+    }
+  ],
+  "schema": "bithold.javascript-comparison.v1",
+  "scope": "Two local JavaScript/Hermes rebuilds, asset repeatability, and archived bytecode comparison only.",
+  "sourceRoot": "8a68ea1a030bcc5f9bcfe2a8ee0f087d61bdc08ce4fc824fb3f9f103f7521bf2",
+  "sourceUnchanged": true,
+  "status": "matched",
+  "toolsUnchanged": true
+}

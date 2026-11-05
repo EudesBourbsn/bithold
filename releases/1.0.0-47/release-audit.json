@@ -1,0 +1,10 @@
+{
+  "schema": "bithold.release-audit.v1",
+  "archiveAssetsMatch": true,
+  "assetCount": 55,
+  "sourceFileCount": 400,
+  "sourceBytes": 4342906,
+  "sourceFindings": [],
+  "dependencyInstall": "npm ci --offline, including postinstall patches, in independent extracted source snapshot",
+  "scope": "First-party cleanup, clean JavaScript/Hermes rebuild and archive assets; native reproducibility not established"
+}

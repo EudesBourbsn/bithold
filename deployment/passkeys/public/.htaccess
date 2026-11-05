@@ -1,0 +1,4 @@
+# Serve Apple's association document as JSON without redirects or a file extension.
+<Files "apple-app-site-association">
+  ForceType application/json
+</Files>
