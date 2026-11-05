@@ -195,7 +195,7 @@ final class BitholdCloudBackup: NSObject {
     Task { @MainActor in
       guard #available(iOS 18.0, *) else { reject("cloud.unsupported", "BHCB:configuration:app:4", nil); return }
       guard !busy else { reject("cloud.busy", "BHCB:configuration:app:5", nil); return }
-      guard Bundle.main.bundleIdentifier == "bithold-bitcoin.bithold" else {
+      guard Bundle.main.bundleIdentifier == "bithold-movement.bithold" else {
         reject("cloud.configuration", "BHCB:configuration:app:6", nil); return
       }
       busy = true
